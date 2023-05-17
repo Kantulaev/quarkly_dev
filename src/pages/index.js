@@ -43,6 +43,8 @@ export default (() => {
 						hyphens="manual"
 						user-select="auto"
 						pointer-events="auto"
+						font="--headline2"
+						lg-font="--headline3"
 					>
 						ЖК "2 КИТА"
 					</Strong>
@@ -56,14 +58,11 @@ export default (() => {
 					order="1"
 					align-items="center"
 				>
-					<Link
-						href="#rasr"
-						color="#000000"
-						font="--headline4"
-						id="rasr"
-						margin="0px 16px 0px 0px"
-					>
+					<Link href="#rasrochka" color="#000000" font="--headline4" margin="0px 16px 0px 0px">
 						Рассрочка
+					</Link>
+					<Link href="#docs" color="#000000" font="--headline4" margin="0px 16px 0px 0px">
+						Документы
 					</Link>
 					<Link href="#contacts" color="#000000" font="--headline4" id="rasr">
 						Контакты
@@ -847,7 +846,7 @@ export default (() => {
 			margin="0px 0px 0px 0px"
 			background="--color-darkL1"
 			quarkly-title="Rassrochka"
-			id="rasr"
+			id="rasrochka"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -949,7 +948,14 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" background="#1e1e1e" lg-display="flex" lg-flex-direction="row">
+		<Section
+			padding="80px 0 80px 0"
+			background="#1e1e1e"
+			lg-display="flex"
+			lg-flex-direction="row"
+			id="docs"
+			quarkly-title="docs"
+		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" lg-justify-content="center" />
 			<Box
 				display="flex"
