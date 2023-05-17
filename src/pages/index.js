@@ -46,7 +46,9 @@ export default (() => {
 						font="--headline2"
 						lg-font="--headline3"
 					>
-						ЖК "2 КИТА"
+						<Link href="/" color="#000000" border-color="#ffffff" link-text-decoration-line="initial">
+							ЖК "2 КИТА"
+						</Link>
 					</Strong>
 				</Text>
 				<Image src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07:06:30.948Z" display="block" height="100px" />
@@ -184,7 +186,13 @@ export default (() => {
 						type="link"
 					>
 						<Icon category="fa" icon={FaWhatsapp} size="32px" margin="0px 8px 0px 0px" />
-						<Span text-align="center" position="static" display="grid" flex="1 1 0%">
+						<Span
+							text-align="center"
+							position="static"
+							display="grid"
+							flex="1 1 0%"
+							as="span"
+						>
 							Whatsapp
 						</Span>
 					</Button>
