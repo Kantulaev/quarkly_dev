@@ -10,11 +10,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				ЖК "2 КИТА" - Избербаш
+				Элитный Жилой Комплекс  "2 КИТА" г. Избербаш
 			</title>
-			<meta name={"description"} content={"Квартиры у берега моря. Около Аквапарка. Рассрочка на 3 года."} />
-			<meta property={"og:title"} content={"ЖК \"2 КИТА\" - Избербаш"} />
-			<meta property={"og:description"} content={"Квартиры у берега моря. Около Аквапарка. Рассрочка на 3 года."} />
+			<meta name={"description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
+			<meta property={"og:title"} content={"Элитный Жилой Комплекс  \"2 КИТА\" г. Избербаш"} />
+			<meta property={"og:description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/photo_2023-05-14_21-34-09.jpg?v=2023-05-16T06:40:36.251Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2023-05-16T06:41:53.296Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
@@ -24,7 +24,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310.png?v=2023-05-16T06:42:15.248Z"} />
 			<meta name={"msapplication-TileColor"} content={"#0429ff"} />
 		</Helmet>
-		<Section quarkly-title="Header">
+		<Section quarkly-title="Header" position="static">
 			<Box
 				display="flex"
 				padding="12px 0"
@@ -208,6 +208,8 @@ export default (() => {
 					grid-row="1 / span 2"
 					display="inline-block"
 					loading="lazy"
+					alt="жк 2 кита избербаш"
+					title="жк 2 кита избербаш"
 				/>
 			</Box>
 		</Section>
@@ -284,6 +286,9 @@ export default (() => {
 				md-display="grid"
 				md-height="400px"
 				margin="48px 0px 0px 0px"
+				loading="lazy"
+				alt="жк 2 кита избербаш"
+				title="жк 2 кита избербаш"
 			/>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
@@ -396,6 +401,9 @@ export default (() => {
 						right={0}
 						bottom={0}
 						min-height="100%"
+						alt="жк 2 кита избербаш"
+						title="жк 2 кита избербаш"
+						loading="lazy"
 					/>
 				</Box>
 				<Box lg-width="40%" sm-width="100%">
@@ -479,6 +487,9 @@ export default (() => {
 						right={0}
 						bottom={0}
 						min-height="100%"
+						alt="жк 2 кита избербаш"
+						loading="lazy"
+						title="жк 2 кита избербаш"
 					/>
 				</Box>
 				<Box lg-width="40%" sm-width="100%">
@@ -554,6 +565,9 @@ export default (() => {
 						bottom={0}
 						min-height="100%"
 						object-position="60%"
+						alt="жк 2 кита избербаш"
+						title="жк 2 кита избербаш"
+						loading="lazy"
 					/>
 				</Box>
 				<Box lg-width="40%" sm-width="100%">
@@ -665,6 +679,9 @@ export default (() => {
 				md-display="grid"
 				md-height="400px"
 				margin="48px 0px 0px 0px"
+				alt="жк 2 кита избербаш"
+				title="жк 2 кита избербаш"
+				loading="lazy"
 			/>
 		</Section>
 		<Section padding="120px 0 130px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="#ffffff">
