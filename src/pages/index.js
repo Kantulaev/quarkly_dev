@@ -94,6 +94,7 @@ export default (() => {
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					md-text-align="left"
+					sm-align-self="flex-start"
 				>
 					Квартиры.
 					<br />
@@ -196,36 +197,16 @@ export default (() => {
 				lg-justify-content="center"
 				lg-padding="0px 0px 0px 0px"
 			>
-				<Box
-					display="grid"
-					grid-template-rows="repeat(3, 180px)"
-					grid-template-columns="repeat(2, 1fr)"
-					grid-gap="32px"
-					max-width="600px"
-					md-grid-template-rows="repeat(3, 25vw)"
-					sm-grid-gap="16px"
-					order="0"
-				>
-					<Image
-						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/outside2.jpg?v=2023-05-16T07:12:20.038Z"
-						border-radius="24px"
-						object-fit="cover"
-						width="100%"
-						height="100%"
-						grid-column="1 / span 1"
-						grid-row="1 / span 2"
-						display="inline-block"
-					/>
-					<Image
-						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/outside1.jpg?v=2023-05-16T07:12:32.587Z"
-						border-radius="24px"
-						object-fit="cover"
-						width="100%"
-						height="100%"
-						grid-column="2 / span 1"
-						grid-row="2 / span 2"
-					/>
-				</Box>
+				<Image
+					src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+					border-radius="24px"
+					object-fit="cover"
+					width="100%"
+					height="100%"
+					grid-column="1 / span 1"
+					grid-row="1 / span 2"
+					display="inline-block"
+				/>
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="#e5e5e5">
@@ -279,12 +260,20 @@ export default (() => {
 					display="flex"
 					align-items="flex-start"
 				>
-					Хотите купить квартиру, где каждое утро вы будете просыпаться с видом на море? Наш новый жилой комплекс с высокой сейсмостойкостью и современной инфраструктурой - идеальное место для вашей мечты!
+					Хотите купить квартиру,{" "}
+					<br />
+					где каждое утро вы будете просыпаться с видом на море?{" "}
+					<br />
+					Наш новый жилой комплекс с высокой сейсмостойкостью и{" "}
+					<br />
+					современной инфраструктурой -
+					<br />
+					{" "}идеальное место для вашей мечты!
 				</Text>
 			</Box>
 			<Image
-				src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
-				object-fit="fill"
+				src="https://images.unsplash.com/photo-1533423996375-f914ab160932?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+				object-fit="cover"
 				width="100%"
 				height="800px"
 				grid-column="2 / span 2"
@@ -342,7 +331,6 @@ export default (() => {
 					font="--headline1"
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					padding="0px 16px 0px 0px"
 					lg-margin="0px 0px 48px 0px"
 					sm-margin="0px 0px 24px 0px"
 					md-font="normal 800 60px/1.2 &quot;Manrope&quot;, sans-serif"
@@ -377,6 +365,7 @@ export default (() => {
 				lg-flex-wrap="wrap"
 				lg-justify-content="flex-start"
 				lg-padding="0px 0px 0px 0px"
+				margin="48px 0px 0px 0px"
 			>
 				<Box
 					width="80%"
@@ -415,12 +404,15 @@ export default (() => {
 						margin="0px 0px 12px 0px"
 						color="--dark"
 						font="--headline3"
-						lg-text-align="center"
+						lg-text-align="left"
 						display="flex"
 						align-items="flex-start"
 						md-text-align="left"
+						lg-font="--headline2"
 					>
-						Новый детский сад
+						Новый{" "}
+						<br />
+						детский сад
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -429,6 +421,7 @@ export default (() => {
 						lg-text-align="left"
 						display="flex"
 						align-items="flex-start"
+						lg-font="--headline4"
 					>
 						Современный инфраструктура,{" "}
 						<br />
@@ -440,39 +433,41 @@ export default (() => {
 			</Box>
 			<Box
 				display="flex"
-				width="50%"
+				flex-direction="column-reverse"
 				justify-content="flex-start"
-				align-items="center"
-				overflow-x="hidden"
-				overflow-y="hidden"
-				lg-width="100%"
+				align-items="flex-start"
 				lg-align-items="flex-start"
+				padding="0px 0px 32px 16px"
+				lg-width="100%"
+				lg-flex-direction="row"
+				lg-flex-wrap="wrap"
 				lg-justify-content="flex-start"
-				lg-margin="40px 0px 0px 0px"
-				sm-flex-direction="column"
-				sm-justify-content="center"
-				flex-direction="row"
+				lg-padding="0px 0px 0px 0px"
+				order="0"
+				width="40%"
 				align-content="flex-start"
 			>
 				<Box
-					width="100%"
+					width="80%"
 					overflow-x="hidden"
 					overflow-y="hidden"
 					position="relative"
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					padding="0px 0px 20% 0px"
+					padding="0px 0px 100% 0px"
 					border-radius="24px"
-					lg-width="auto"
+					margin="0px 0px 34px 0px"
+					lg-width="50%"
 					lg-margin="0px 32px 34px 0px"
-					margin="0px 32px 0px 0px"
-					min-width="188px"
-					min-height="188px"
-					sm-margin="0px 32px 24px 0px"
+					lg-padding="0px 0px 75% 0px"
+					sm-margin="0px 0px 24px 0px"
+					sm-width="100%"
+					sm-padding="0px 0px 135% 0px"
+					height="auto"
 				>
 					<Image
-						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/5-3%20%281%29.jpg?v=2023-05-17T01:26:26.891Z"
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/5-3%20%281%29.jpg?v=2023-05-17T02:23:09.929Z"
 						object-fit="cover"
 						position="absolute"
 						display="block"
@@ -484,15 +479,16 @@ export default (() => {
 						min-height="100%"
 					/>
 				</Box>
-				<Box min-width="100px" min-height="100px">
+				<Box lg-width="40%" sm-width="100%">
 					<Text
 						margin="0px 0px 12px 0px"
 						color="--dark"
 						font="--headline3"
-						lg-text-align="center"
+						lg-text-align="left"
 						display="flex"
 						align-items="flex-start"
 						md-text-align="left"
+						lg-font="--headline2"
 					>
 						Горячие источники
 					</Text>
@@ -503,11 +499,89 @@ export default (() => {
 						lg-text-align="left"
 						display="flex"
 						align-items="flex-start"
-						sm-text-align="left"
-						lg-width="50%"
-						sm-width="100%"
+						lg-font="--headline4"
 					>
-						В пешей доступности  находятся чудесные горячие источники и  самые полезные минеральные воды
+						В пешей доступности  находятся чудесные горячие источники и  самые полезные минеральные воды{"\n\n"}
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				display="flex"
+				width="45%"
+				flex-direction="column"
+				justify-content="flex-start"
+				align-items="flex-start"
+				lg-align-items="flex-start"
+				padding="0px 0px 32px 16px"
+				lg-width="100%"
+				lg-flex-direction="row"
+				lg-flex-wrap="wrap"
+				lg-justify-content="flex-start"
+				lg-padding="0px 0px 0px 0px"
+				order="0"
+				margin="32px 0px 0px 144px"
+				lg-margin="32px 0px 0px 0"
+			>
+				<Box
+					width="80%"
+					height="auto"
+					overflow-x="hidden"
+					overflow-y="hidden"
+					position="relative"
+					transform="translateY(0px)"
+					transition="transform 0.2s ease-in-out 0s"
+					hover-transform="translateY(-10px)"
+					padding="0px 0px 100% 0px"
+					border-radius="24px"
+					margin="0px 0px 34px 0px"
+					lg-width="50%"
+					lg-margin="0px 32px 34px 0px"
+					lg-padding="0px 0px 75% 0px"
+					sm-margin="0px 0px 24px 0px"
+					sm-width="100%"
+					sm-padding="0px 0px 135% 0px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/Izberbash%20%281%29.jpg?v=2023-05-17T03:40:35.951Z"
+						object-fit="cover"
+						position="absolute"
+						display="block"
+						width="100%"
+						top={0}
+						left={0}
+						right={0}
+						bottom={0}
+						min-height="100%"
+						object-position="60%"
+					/>
+				</Box>
+				<Box lg-width="40%" sm-width="100%">
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--dark"
+						font="--headline3"
+						lg-text-align="left"
+						display="flex"
+						align-items="flex-start"
+						md-text-align="left"
+						lg-font="--headline2"
+					>
+						Городской пляж
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--darkL2"
+						font="--lead"
+						lg-text-align="left"
+						display="flex"
+						align-items="flex-start"
+						lg-font="--headline4"
+					>
+						Буквально в 2 минутах располагается
+						<br />
+						{" "}городской пляж г.Избербаш.
+						<br />
+						Приятный песок и теплая вода всегда рядом.
 					</Text>
 				</Box>
 			</Box>
@@ -578,6 +652,8 @@ export default (() => {
 							color="#65696d"
 							text-align="center"
 							border-color="#7a7c7f"
+							md-border-color="--color-darkL2"
+							md-color="--darkL2"
 						>
 							Коммерческий этаж этого комплекса - настоящий рай для любителей шоппинга и вкусной еды. Здесь вы найдете все, что нужно для удобства жизни и деловой деятельности - магазины, кафе, прачечную, дом быта, ателье и многое другое.
 						</Text>
@@ -627,6 +703,7 @@ export default (() => {
 							color="#65696d"
 							text-align="center"
 							border-color="#7a7c7f"
+							md-color="--darkL2"
 						>
 							{" "}Вы можете быть уверены, что ваш автомобиль всегда будет находиться в безопасности и удобство парковки не заставит вас мучиться.
 						</Text>
@@ -676,6 +753,7 @@ export default (() => {
 							color="#65696d"
 							text-align="center"
 							border-color="#7a7c7f"
+							md-color="--darkL2"
 						>
 							При этом жильцы получают самый высокий уровень комфорта и безопасности. В каждом подъезде есть по 2 лифта, чтобы избежать постоянных очередей и неудобств. А центральный благоустроенный двор с возможностью провести время на свежем воздухе - это просто здорово!
 						</Text>
@@ -737,7 +815,7 @@ export default (() => {
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
-							Рассрочка на 3года.{" "}
+							Рассрочка на 3 года.{" "}
 							<br />
 							Цена 50 тыс за кв.м.
 						</Text>
@@ -755,7 +833,7 @@ export default (() => {
 							sm-width="44px"
 						/>
 						<Text margin="0px 0px 0px 0px" color="#ffffff" font="--headline2" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							30% - предоплата.{" "}
+							30% - предоплата{" "}
 						</Text>
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
@@ -790,6 +868,171 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section padding="80px 0 80px 0" background="#1e1e1e" lg-display="flex" lg-flex-direction="row">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" lg-justify-content="center" />
+			<Box
+				display="flex"
+				align-items="center"
+				flex-direction="column"
+				justify-content="center"
+				margin="0px 0px 33px 0px"
+				width="100%"
+				sm-margin="0px 0px 30px 0px"
+				padding="0px 200px 0px 200px"
+				lg-padding="0px 0px 0px 0px"
+			>
+				<Text
+					margin="0px 0px 16px 0px"
+					color="#ffffff"
+					font="--headline1"
+					text-align="center"
+					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+				>
+					Документы и строительство
+				</Text>
+			</Box>
+			<Box
+				display="grid"
+				flex-wrap="wrap"
+				width="100%"
+				align-items="stretch"
+				justify-content="center"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="32px"
+				md-grid-template-columns="1fr"
+				justify-items="center"
+				lg-display="flex"
+				lg-width="60%"
+				lg-align-self="auto"
+				lg-align-items="stretch"
+				lg-justify-content="center"
+			>
+				<Box
+					width="100%"
+					display="flex"
+					padding="48px 40px 56px 40px"
+					background="--color-light"
+					border-radius="24px"
+					align-items="center"
+					justify-content="flex-start"
+					flex-direction="column"
+					lg-padding="48px 35px 56px 35px"
+				>
+					<Text margin="0px 0px 24px 0px" font="--headline3" text-align="center">
+						Этапы строительства
+					</Text>
+					<Text
+						margin="0px 0px 48px 0px"
+						color="--greyD2"
+						text-align="center"
+						font="--headline4"
+						flex="1 1 auto"
+					>
+						Нажмите на кнопку снизу для просмотра  видео со строительной площадки
+					</Text>
+					<Link
+						href="https://disk.yandex.ru/d/SzLh3VJbUoSs9Q"
+						text-decoration-line="initial"
+						color="--dark"
+						font="--lead"
+						padding="12px 24px 12px 24px"
+						border-radius="8px"
+						background="--color-secondary"
+						lg-padding="12px 20px 12px 20px"
+						transition="background-color 0.2s ease-in-out 0s"
+						hover-transition="background-color 0.2s ease-in-out 0s"
+						hover-background="--color-orange"
+						target="_blank"
+					>
+						Посмотреть видео
+					</Link>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="48px 40px 56px 40px"
+					background="--color-light"
+					border-radius="24px"
+					align-items="center"
+					justify-content="flex-start"
+					flex-direction="column"
+					lg-padding="48px 35px 56px 35px"
+				>
+					<Text margin="0px 0px 24px 0px" font="--headline3" text-align="center">
+						Разрешение на строительство
+					</Text>
+					<Text
+						margin="0px 0px 48px 0px"
+						color="--greyD2"
+						text-align="center"
+						font="--headline4"
+						flex="1 1 auto"
+					>
+						Нажмите на кнопку снизу для просмотра  всех документов{" "}
+						<br />
+						на стройку
+					</Text>
+					<Link
+						text-decoration-line="initial"
+						color="--dark"
+						font="--lead"
+						padding="12px 24px 12px 24px"
+						border-radius="8px"
+						background="--color-secondary"
+						lg-padding="12px 20px 12px 20px"
+						transition="background-color 0.2s ease-in-out 0s"
+						hover-transition="background-color 0.2s ease-in-out 0s"
+						hover-background="--color-orange"
+						href="https://disk.yandex.ru/d/VpCIxbUVzwVjDA"
+						target="_blank"
+					>
+						Посмотреть документы
+					</Link>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="48px 40px 56px 40px"
+					background="--color-light"
+					border-radius="24px"
+					align-items="center"
+					justify-content="flex-start"
+					flex-direction="column"
+					lg-padding="48px 35px 56px 35px"
+				>
+					<Text margin="0px 0px 24px 0px" font="--headline3" text-align="center">
+						Проект и планировки
+					</Text>
+					<Text
+						margin="0px 0px 48px 0px"
+						color="--greyD2"
+						text-align="center"
+						font="--headline4"
+						flex="1 1 auto"
+					>
+						Нажмите на кнопку снизу для просмотра  проекта в
+						<br />
+						{" "}PDF формате
+					</Text>
+					<Link
+						text-decoration-line="initial"
+						color="--dark"
+						font="--lead"
+						padding="12px 24px 12px 24px"
+						border-radius="8px"
+						background="--color-secondary"
+						lg-padding="12px 20px 12px 20px"
+						transition="background-color 0.2s ease-in-out 0s"
+						hover-transition="background-color 0.2s ease-in-out 0s"
+						hover-background="--color-orange"
+						href="https://disk.yandex.ru/i/aqIuydVGBpvJPg"
+						target="_blank"
+					>
+						Посмотреть проект
+					</Link>
+				</Box>
+			</Box>
+		</Section>
 		<Section background="--color-darkL1" padding="80px 0 80px 0" id="contacts" quarkly-title="Contacts">
 			<Box
 				display="flex"
@@ -806,9 +1049,9 @@ export default (() => {
 					text-align="center"
 					sm-font="normal 700 62px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 				>
-					Связаться{" "}
+					Контакты
 					<br />
-					с нами
+					для связи
 				</Text>
 				<Text margin="0px 0px 48px 0px" font="--headline3" color="--light" text-align="center">
 					<Link href="tel:+79286775522" color="#fafafa" border-color="#5959ff" link-color="#ffffff">
@@ -854,9 +1097,10 @@ export default (() => {
 			<Text
 				margin="0"
 				md-margin="0px 0 20px 0"
-				text-align="left"
+				text-align="center"
 				font="--lead"
 				sm-height="auto"
+				display="block"
 			>
 				<Strong sm-text-align="center" sm-font="--lead">
 					ЖК "2Кита" - Квартиры у берега моря. Рассрочка на 3 года.
