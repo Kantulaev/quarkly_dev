@@ -199,7 +199,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img957.jpg?v=2023-05-17T04:22:14.741Z"
+					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05:35:34.295Z"
 					border-radius="24px"
 					object-fit="cover"
 					width="100%"
@@ -207,6 +207,7 @@ export default (() => {
 					grid-column="1 / span 1"
 					grid-row="1 / span 2"
 					display="inline-block"
+					loading="lazy"
 				/>
 			</Box>
 		</Section>
@@ -270,7 +271,7 @@ export default (() => {
 				</Text>
 			</Box>
 			<Image
-				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img948.jpg?v=2023-05-17T04:22:14.722Z"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05:35:34.256Z"
 				object-fit="cover"
 				width="100%"
 				height="800px"
@@ -385,7 +386,7 @@ export default (() => {
 					sm-padding="0px 0px 135% 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/outside4.jpg?v=2023-05-17T01:01:52.337Z"
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05:35:34.244Z"
 						object-fit="cover"
 						position="absolute"
 						display="block"
@@ -468,7 +469,7 @@ export default (() => {
 					lg-margin="0px 32px 34px 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/5-3%20%281%29.jpg?v=2023-05-17T02:23:09.929Z"
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05:35:34.249Z"
 						object-fit="cover"
 						position="absolute"
 						display="block"
@@ -542,7 +543,7 @@ export default (() => {
 					sm-padding="0px 0px 135% 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/Izberbash%20%281%29.jpg?v=2023-05-17T03:40:35.951Z"
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05:35:34.250Z"
 						object-fit="cover"
 						position="absolute"
 						display="block"
@@ -651,7 +652,7 @@ export default (() => {
 				</Text>
 			</Box>
 			<Image
-				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img973.jpg?v=2023-05-17T04:22:14.710Z"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05:35:34.254Z"
 				object-fit="cover"
 				width="100%"
 				height="800px"
