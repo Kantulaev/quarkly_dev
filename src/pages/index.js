@@ -3,9 +3,8 @@ import theme from "theme";
 import { Theme, Link, Strong, Text, Image, Box, Section, Icon, Span, Button, Hr, LinkBox } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Menu } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import { FaTelegram, FaWhatsapp, FaWhatsappSquare } from "react-icons/fa";
-import { BsSquare, BsBrightnessLow, BsColumnsGutters, BsTriangle } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -49,24 +48,27 @@ export default (() => {
 					</Strong>
 				</Text>
 				<Image src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07:06:30.948Z" display="block" height="100px" />
-				<Menu
+				<Box
+					flex="0 1 auto"
+					align-self="auto"
 					display="flex"
-					justify-content="center"
-					font="--headline4"
-					font-weight="700"
-					md-flex-direction="column"
-					md-align-items="center"
+					height="auto"
+					order="1"
+					align-items="center"
 				>
-					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
-					<Override slot="link-active" color="--primary" />
-					<Override slot="item" padding="6px" />
-					<Override slot="link-index">
+					<Link
+						href="#rasr"
+						color="#000000"
+						font="--headline4"
+						id="rasr"
+						margin="0px 16px 0px 0px"
+					>
 						Рассрочка
-					</Override>
-					<Override slot="link-contacts" href="/index#contacts">
+					</Link>
+					<Link href="#contacts" color="#000000" font="--headline4" id="rasr">
 						Контакты
-					</Override>
-				</Menu>
+					</Link>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
@@ -91,10 +93,20 @@ export default (() => {
 					font="--headline1"
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					md-text-align="left"
 				>
-					Квартиры у берега моря
+					Квартиры.
+					<br />
+					У берега моря
 				</Text>
-				<Text margin="0px 0px 40px 0px" color="--darkL1" font="--headline3" lg-text-align="center">
+				<Text
+					margin="0px 0px 40px 0px"
+					color="--darkL1"
+					font="--headline3"
+					lg-text-align="center"
+					md-text-align="left"
+					md-align-self="flex-start"
+				>
 					Рассрочка на 3 года{" "}
 				</Text>
 				<Box display="flex" lg-width="100%" lg-justify-content="space-between" sm-margin="0px 0px 20px 0px">
@@ -141,6 +153,7 @@ export default (() => {
 						margin="32px 24px 16px 0px"
 						border-radius="40px"
 						target="_blank"
+						type="link"
 					>
 						<Icon category="fa" icon={FaTelegram} size="32px" margin="0px 8px 0px 0px" />
 						<Span text-align="center" position="static" display="grid" flex="1 1 0%">
@@ -166,6 +179,7 @@ export default (() => {
 						disabled={false}
 						background="#00cc0f"
 						target="_blank"
+						type="link"
 					>
 						<Icon category="fa" icon={FaWhatsapp} size="32px" margin="0px 8px 0px 0px" />
 						<Span text-align="center" position="static" display="grid" flex="1 1 0%">
@@ -190,6 +204,7 @@ export default (() => {
 					max-width="600px"
 					md-grid-template-rows="repeat(3, 25vw)"
 					sm-grid-gap="16px"
+					order="0"
 				>
 					<Image
 						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/outside2.jpg?v=2023-05-16T07:12:20.038Z"
@@ -199,6 +214,7 @@ export default (() => {
 						height="100%"
 						grid-column="1 / span 1"
 						grid-row="1 / span 2"
+						display="inline-block"
 					/>
 					<Image
 						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/outside1.jpg?v=2023-05-16T07:12:32.587Z"
@@ -212,153 +228,75 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="#e5e5e5">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
-				padding="80px 72px 80px 72px"
-				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
-				border-radius="24px"
-				margin="0px 0px 64px 0px"
-				sm-padding="60px 36px 60px 36px"
+				display="flex"
+				width="50%"
+				flex-direction="column"
+				justify-content="center"
+				align-items="flex-start"
+				lg-align-items="center"
+				lg-margin="0px 0px 20px 0px"
+				sm-padding="0px 0px 0px 0px"
+				padding="16px 16px 16px 0px"
+				lg-width="100%"
+				md-margin="0px 0px 20px 0px"
+				sm-margin="0px 0px 30px 0px"
 			>
-				<Box
-					width="60%"
-					display="flex"
-					flex-direction="column"
-					md-width="100%"
-					md-align-items="center"
-					md-justify-content="center"
-					md-text-align="center"
-					lg-width="100%"
+				<Text
+					margin="0px 0px 0px 0px"
+					color="--dark"
+					font="--headline1"
+					lg-text-align="center"
+					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					padding="0px 16px 0px 0px"
 				>
-					<Text
-						margin="0px 0px 16px 0px"
-						font="--headline2"
-						color="--dark"
-						md-text-align="center"
-						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					>
-						Setting up a workplace in the office and at home
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna aliqua
-					</Text>
-				</Box>
+					Прекрасный
+					<br />
+					вид на море
+				</Text>
 			</Box>
 			<Box
-				display="grid"
-				lg-flex-wrap="wrap"
-				grid-template-columns="repeat(4, 1fr)"
-				grid-gap="36px 4%"
-				lg-grid-template-columns="repeat(2, 1fr)"
-				sm-grid-template-columns="1fr"
-				sm-grid-gap="12px"
+				display="flex"
+				width="50%"
+				flex-direction="column"
+				justify-content="flex-start"
+				align-items="flex-start"
+				lg-align-items="center"
+				lg-margin="0px 0px 0px 0px"
+				sm-padding="0px 0px 0px 0px"
+				padding="28px 0px 16px 16px"
+				lg-width="100%"
+				md-margin="0px 0px 20px 0px"
+				sm-margin="0px 0px 0px 0px"
 			>
-				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
-					<Text
-						padding="7px 24px 8px 24px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-					>
-						1
-					</Text>
-					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Bring your ideas
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-					</Text>
-				</Box>
-				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 30px 0px">
-					<Text
-						padding="7px 24px 8px 24px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-					>
-						2
-					</Text>
-					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Bring your ideas
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-					</Text>
-				</Box>
-				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
-					<Text
-						padding="7px 24px 8px 24px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-					>
-						3
-					</Text>
-					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Bring your ideas
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-					</Text>
-				</Box>
-				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 0px 0px">
-					<Text
-						padding="7px 24px 8px 24px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-					>
-						4
-					</Text>
-					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Bring your ideas
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-					</Text>
-				</Box>
+				<Text
+					margin="0px 0px 0px 0px"
+					color="--darkL1"
+					font="--headline4"
+					lg-text-align="center"
+					display="flex"
+					align-items="flex-start"
+				>
+					Хотите купить квартиру, где каждое утро вы будете просыпаться с видом на море? Наш новый жилой комплекс с высокой сейсмостойкостью и современной инфраструктурой - идеальное место для вашей мечты!
+				</Text>
 			</Box>
+			<Image
+				src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+				object-fit="fill"
+				width="100%"
+				height="800px"
+				grid-column="2 / span 2"
+				border-radius="24px"
+				sm-grid-column="1 / span 1"
+				md-flex="0 1 auto"
+				md-align-self="auto"
+				md-order="0"
+				md-display="grid"
+				md-height="400px"
+				margin="48px 0px 0px 0px"
+			/>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
 			<Override
@@ -383,6 +321,7 @@ export default (() => {
 				md-margin="0px 0px 30px 0px"
 				lg-padding="0px 0px 0px 0px"
 				height="480px"
+				sm-height="auto"
 			>
 				<Text
 					margin="0px 0px 25px 0px"
@@ -406,8 +345,9 @@ export default (() => {
 					padding="0px 16px 0px 0px"
 					lg-margin="0px 0px 48px 0px"
 					sm-margin="0px 0px 24px 0px"
+					md-font="normal 800 60px/1.2 &quot;Manrope&quot;, sans-serif"
 				>
-					Прекрасное местоположение
+					Удобное местоположение
 				</Text>
 				<Text
 					margin="48px 0px 0px 0px"
@@ -458,7 +398,7 @@ export default (() => {
 					sm-padding="0px 0px 135% 0px"
 				>
 					<Image
-						src="https://images.unsplash.com/photo-1596523965234-f45cda35d1e6?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/outside4.jpg?v=2023-05-17T01:01:52.337Z"
 						object-fit="cover"
 						position="absolute"
 						display="block"
@@ -478,18 +418,23 @@ export default (() => {
 						lg-text-align="center"
 						display="flex"
 						align-items="flex-start"
+						md-text-align="left"
 					>
-						Paving Slabs
+						Новый детский сад
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--darkL2"
-						font="--base"
+						font="--lead"
 						lg-text-align="left"
 						display="flex"
 						align-items="flex-start"
 					>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+						Современный инфраструктура,{" "}
+						<br />
+						где созданы идеальные условия для развития малышей..
+						<br />
+						Тут есть прекрасно оборудованные игровые зоны, где дети могут играть и заниматься под руководством опытных педагогов.{" "}
 					</Text>
 				</Box>
 			</Box>
@@ -527,7 +472,7 @@ export default (() => {
 					sm-margin="0px 32px 24px 0px"
 				>
 					<Image
-						src="https://images.unsplash.com/photo-1546050680-d4305dcff705?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=389&q=80"
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/5-3%20%281%29.jpg?v=2023-05-17T01:26:26.891Z"
 						object-fit="cover"
 						position="absolute"
 						display="block"
@@ -539,22 +484,212 @@ export default (() => {
 						min-height="100%"
 					/>
 				</Box>
-				<Text
-					margin="0px 0px 0px 0px"
-					color="--darkL2"
-					font="--base"
-					lg-text-align="left"
-					display="flex"
-					align-items="flex-start"
-					sm-text-align="left"
-					lg-width="50%"
-					sm-width="100%"
-				>
-					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-				</Text>
+				<Box min-width="100px" min-height="100px">
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--dark"
+						font="--headline3"
+						lg-text-align="center"
+						display="flex"
+						align-items="flex-start"
+						md-text-align="left"
+					>
+						Горячие источники
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--darkL2"
+						font="--lead"
+						lg-text-align="left"
+						display="flex"
+						align-items="flex-start"
+						sm-text-align="left"
+						lg-width="50%"
+						sm-width="100%"
+					>
+						В пешей доступности  находятся чудесные горячие источники и  самые полезные минеральные воды
+					</Text>
+				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" margin="0px 0px 0px 0px" background="--color-darkL1" quarkly-title="Rassrochka">
+		<Section padding="120px 0 130px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="#e5e5e5">
+			<Text
+				margin="0px 0px 80px 0px"
+				font="--headline2"
+				color="--darkL1"
+				border-color="--color-dark"
+				text-align="center"
+				lg-margin="0px 0px 50px 0px"
+			>
+				То, что вам действительно нужно
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				md-grid-template-columns="1fr"
+				md-grid-template-rows="auto"
+				md-grid-gap={0}
+				padding="0px 50px 0px 50px"
+				lg-padding="0px 0 0px 0"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					lg-padding="0px 25px 26px 25px"
+					flex-direction="column"
+					align-items="center"
+					padding="0px 30px 30px 30px"
+					md-padding="0px 25px 34px 25px"
+					sm-padding="0px 0 34px 0"
+				>
+					<Box
+						min-width="50px"
+						min-height="50px"
+						background="--color-darkL1"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						width="50px"
+						height="50px"
+						border-radius="50%"
+						margin="0px 0px 30px 0px"
+						color="--darkL2"
+					>
+						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
+							1
+						</Text>
+					</Box>
+					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
+						<Text
+							margin="0px 0px 15px 0px"
+							border-color="--color-light"
+							color="--darkL1"
+							font="--headline4"
+							text-align="center"
+						>
+							Все в одном месте
+						</Text>
+						<Text
+							margin="0px 0px 0px 0px"
+							font="--lead"
+							color="#65696d"
+							text-align="center"
+							border-color="#7a7c7f"
+						>
+							Коммерческий этаж этого комплекса - настоящий рай для любителей шоппинга и вкусной еды. Здесь вы найдете все, что нужно для удобства жизни и деловой деятельности - магазины, кафе, прачечную, дом быта, ателье и многое другое.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					lg-padding="0px 25px 26px 25px"
+					flex-direction="column"
+					align-items="center"
+					padding="0px 30px 30px 30px"
+					md-padding="0px 25px 34px 25px"
+					sm-padding="0px 0 34px 0"
+				>
+					<Box
+						min-width="50px"
+						min-height="50px"
+						background="--color-darkL1"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						width="50px"
+						height="50px"
+						border-radius="50%"
+						margin="0px 0px 30px 0px"
+						color="--darkL2"
+					>
+						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
+							2
+						</Text>
+					</Box>
+					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
+						<Text
+							margin="0px 0px 15px 0px"
+							border-color="--color-light"
+							color="--darkL1"
+							font="--headline4"
+							text-align="center"
+						>
+							Подземная парковка
+						</Text>
+						<Text
+							margin="0px 0px 0px 0px"
+							font="--lead"
+							color="#65696d"
+							text-align="center"
+							border-color="#7a7c7f"
+						>
+							{" "}Вы можете быть уверены, что ваш автомобиль всегда будет находиться в безопасности и удобство парковки не заставит вас мучиться.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					lg-padding="0px 25px 26px 25px"
+					flex-direction="column"
+					align-items="center"
+					padding="0px 30px 30px 30px"
+					md-padding="0px 25px 0 25px"
+					sm-padding="0px 0 0 0"
+				>
+					<Box
+						min-width="50px"
+						min-height="50px"
+						background="--color-darkL1"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						width="50px"
+						height="50px"
+						border-radius="50%"
+						margin="0px 0px 30px 0px"
+						color="--darkL2"
+					>
+						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
+							3
+						</Text>
+					</Box>
+					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
+						<Text
+							margin="0px 0px 15px 0px"
+							border-color="--color-light"
+							color="--darkL1"
+							font="--headline4"
+							text-align="center"
+						>
+							Комфортная среда
+						</Text>
+						<Text
+							margin="0px 0px 0px 0px"
+							font="--lead"
+							color="#65696d"
+							text-align="center"
+							border-color="#7a7c7f"
+						>
+							При этом жильцы получают самый высокий уровень комфорта и безопасности. В каждом подъезде есть по 2 лифта, чтобы избежать постоянных очередей и неудобств. А центральный благоустроенный двор с возможностью провести время на свежем воздухе - это просто здорово!
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0 80px 0"
+			margin="0px 0px 0px 0px"
+			background="--color-darkL1"
+			quarkly-title="Rassrochka"
+			id="rasr"
+		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -601,7 +736,7 @@ export default (() => {
 						</Text>
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
-						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Рассрочка на 3года.{" "}
 							<br />
 							Цена 50 тыс за кв.м.
@@ -624,7 +759,7 @@ export default (() => {
 						</Text>
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
-						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Остаток в течении 3-х лет.{" "}
 							<br />
 							Цена 45 тыс. за кв.м.{"\n\n"}
@@ -648,182 +783,10 @@ export default (() => {
 						</Text>
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
-						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Цена 40 тыс за кв.м.
 						</Text>
 					</Box>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="80px 0 90px 0" quarkly-title="Product-1">
-			<Override slot="SectionContent" align-items="center" />
-			<Text margin="0px 0px 20px 0px" text-align="center" font="normal 400 20px/1.5 --fontFamily-sans" color="#38aebd">
-				WE ARE A COMMUNITY OF SWIMMERS
-			</Text>
-			<Text
-				margin="0px 0px 60px 0px"
-				font="normal 600 56px/1.2 --fontFamily-serifGaramond"
-				width="50%"
-				text-align="center"
-				lg-width="70%"
-				md-width="100%"
-				md-margin="0px 0px 40px 0px"
-			>
-				So come on in, the water's great!
-			</Text>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				display="flex"
-				align-self="center"
-				margin="0px 0px 70px 0px"
-				sm-display="grid"
-				sm-align-self="auto"
-				sm-grid-template-columns="repeat(2, 1fr)"
-				sm-grid-template-rows="repeat(2, 1fr)"
-				sm-grid-gap="25px 30px"
-				md-align-self="auto"
-				md-margin="0px 0px 50px 0px"
-			>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-					margin="0px 50px 0px 0px"
-					sm-margin="0px 0 0px 0px"
-					md-margin="0px 35px 0px 0px"
-				>
-					<Icon category="bs" icon={BsSquare} size="64px" margin="0px 0px 10px 0px" />
-					<Text margin="0px 0px 0px 0px" font="normal 400 20px/1.5 --fontFamily-sans">
-						RECTANGLE
-					</Text>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-					margin="0px 50px 0px 0px"
-					sm-margin="0px 0 0px 0px"
-					md-margin="0px 35px 0px 0px"
-				>
-					<Icon category="bs" icon={BsBrightnessLow} size="64px" margin="0px 0px 10px 0px" />
-					<Text margin="0px 0px 0px 0px" font="normal 400 20px/1.5 --fontFamily-sans">
-						CLASSIC
-					</Text>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-					margin="0px 50px 0px 0px"
-					sm-margin="0px 0 0px 0px"
-					md-margin="0px 35px 0px 0px"
-				>
-					<Icon category="bs" icon={BsColumnsGutters} size="64px" margin="0px 0px 10px 0px" />
-					<Text margin="0px 0px 0px 0px" font="normal 400 20px/1.5 --fontFamily-sans">
-						KIDNEY
-					</Text>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-				>
-					<Icon category="bs" icon={BsTriangle} size="64px" margin="0px 0px 10px 0px" />
-					<Text margin="0px 0px 0px 0px" font="normal 400 20px/1.5 --fontFamily-sans">
-						CUSTOM
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				display="grid"
-				grid-template-columns="repeat(3, 1fr)"
-				grid-template-rows="auto"
-				grid-gap="0 35px"
-				md-grid-template-columns="1fr"
-				md-grid-gap="40px 0"
-			>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-				>
-					<Image src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/beautiful-landscape-outdoor-swimming-pool-hotel-resort-leisure.jpg?v=2023-04-27T20:47:17.816Z" display="block" max-width="100%" margin="0px 0px 25px 0px" />
-					<Text margin="0px 0px 15px 0px" font="normal 600 28px/1.2 --fontFamily-serifGaramond" text-align="center">
-						Splash Pool
-					</Text>
-					<Text margin="0px 0px 15px 0px" color="#89929c">
-						DEPTH 3'-6' TO 7'
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						text-align="center"
-						font="--base"
-						padding="0px 35px 0px 35px"
-						lg-padding="0px 0 0px 0"
-					>
-						Perfect place to relax after a swim or catch up with friends over snacks and drinks
-					</Text>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-				>
-					<Image src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/light-ocean-white-relax-umbrella.jpg?v=2023-04-27T20:53:58.543Z" display="block" max-width="100%" margin="0px 0px 25px 0px" />
-					<Text margin="0px 0px 15px 0px" font="normal 600 28px/1.2 --fontFamily-serifGaramond" text-align="center">
-						Blue Horizon Pool
-					</Text>
-					<Text margin="0px 0px 15px 0px" color="#89929c">
-						DEPTH 3'-6' TO 7'
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						text-align="center"
-						font="--base"
-						padding="0px 35px 0px 35px"
-						lg-padding="0px 0 0px 0"
-					>
-						From pool parties to swimming lessons, there's always something fun happening at our club.
-					</Text>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-				>
-					<Image src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/umbrella-chair.jpg?v=2023-04-27T20:54:14.081Z" display="block" max-width="100%" margin="0px 0px 25px 0px" />
-					<Text margin="0px 0px 15px 0px" font="normal 600 28px/1.2 --fontFamily-serifGaramond" text-align="center">
-						Summer Waves Pool
-					</Text>
-					<Text margin="0px 0px 15px 0px" color="#89929c">
-						DEPTH 3'-6' TO 7'
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						text-align="center"
-						font="--base"
-						padding="0px 35px 0px 35px"
-						lg-padding="0px 0 0px 0"
-					>
-						If you're feeling adventurous, our water slides offer a thrilling ride that will leave you wanting more.
-					</Text>
 				</Box>
 			</Box>
 		</Section>
@@ -877,191 +840,28 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section quarkly-title="Footer">
-			<Box
-				display="flex"
-				padding="12px 0"
-				justify-content="center"
-				align-items="center"
-				flex-direction="row"
-				md-flex-direction="column"
-			>
-				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
-					<Strong>
-						ЖК "2Кита" - Квартиры у берега моря. Рассрочка на 3 года.
-					</Strong>
-				</Text>
-			</Box>
-		</Section>
-		<Section padding="120px 0 130px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3">
+			<Override
+				slot="SectionContent"
+				sm-height="auto"
+				sm-align-self="center"
+				sm-justify-content="flex-end"
+				sm-align-items="center"
+				sm-flex-direction="column"
+				sm-align-content="flex-start"
+				sm-flex-wrap="wrap"
+				sm-margin="18px 28.8px 0px 28.8px"
+			/>
 			<Text
-				margin="0px 0px 80px 0px"
-				font="--headline2"
-				color="--darkL1"
-				border-color="--color-dark"
-				text-align="center"
-				lg-margin="0px 0px 50px 0px"
+				margin="0"
+				md-margin="0px 0 20px 0"
+				text-align="left"
+				font="--lead"
+				sm-height="auto"
 			>
-				How We Work For You
+				<Strong sm-text-align="center" sm-font="--lead">
+					ЖК "2Кита" - Квартиры у берега моря. Рассрочка на 3 года.
+				</Strong>
 			</Text>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				display="grid"
-				grid-template-columns="repeat(3, 1fr)"
-				md-grid-template-columns="1fr"
-				md-grid-template-rows="auto"
-				md-grid-gap={0}
-				padding="0px 50px 0px 50px"
-				lg-padding="0px 0 0px 0"
-			>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					lg-padding="0px 25px 26px 25px"
-					flex-direction="column"
-					align-items="center"
-					padding="0px 30px 30px 30px"
-					md-padding="0px 25px 34px 25px"
-					sm-padding="0px 0 34px 0"
-				>
-					<Box
-						min-width="50px"
-						min-height="50px"
-						background="--color-darkL1"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						width="50px"
-						height="50px"
-						border-radius="50%"
-						margin="0px 0px 30px 0px"
-						color="--darkL2"
-					>
-						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
-							1
-						</Text>
-					</Box>
-					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
-						<Text
-							margin="0px 0px 15px 0px"
-							border-color="--color-light"
-							color="--darkL1"
-							font="normal 500 22px/1.2 --fontFamily-sans"
-							text-align="center"
-						>
-							Proposal
-						</Text>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
-							color="#65696d"
-							text-align="center"
-							border-color="#7a7c7f"
-						>
-							Once they understand your needs, they will create a proposal outlining the scope of work, timeline, and cost.
-						</Text>
-					</Box>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					lg-padding="0px 25px 26px 25px"
-					flex-direction="column"
-					align-items="center"
-					padding="0px 30px 30px 30px"
-					md-padding="0px 25px 34px 25px"
-					sm-padding="0px 0 34px 0"
-				>
-					<Box
-						min-width="50px"
-						min-height="50px"
-						background="--color-darkL1"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						width="50px"
-						height="50px"
-						border-radius="50%"
-						margin="0px 0px 30px 0px"
-						color="--darkL2"
-					>
-						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
-							2
-						</Text>
-					</Box>
-					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
-						<Text
-							margin="0px 0px 15px 0px"
-							border-color="--color-light"
-							color="--darkL1"
-							font="normal 500 22px/1.2 --fontFamily-sans"
-							text-align="center"
-						>
-							Agreement
-						</Text>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
-							color="#65696d"
-							text-align="center"
-							border-color="#7a7c7f"
-						>
-							If you agree to the proposal, you will sign a contract or agreement outlining the terms of the project.
-						</Text>
-					</Box>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					lg-padding="0px 25px 26px 25px"
-					flex-direction="column"
-					align-items="center"
-					padding="0px 30px 30px 30px"
-					md-padding="0px 25px 0 25px"
-					sm-padding="0px 0 0 0"
-				>
-					<Box
-						min-width="50px"
-						min-height="50px"
-						background="--color-darkL1"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						width="50px"
-						height="50px"
-						border-radius="50%"
-						margin="0px 0px 30px 0px"
-						color="--darkL2"
-					>
-						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
-							3
-						</Text>
-					</Box>
-					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
-						<Text
-							margin="0px 0px 15px 0px"
-							border-color="--color-light"
-							color="--darkL1"
-							font="normal 500 22px/1.2 --fontFamily-sans"
-							text-align="center"
-						>
-							Execution
-						</Text>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="normal 400 16px/1.5 --fontFamily-sansHelvetica"
-							color="#65696d"
-							text-align="center"
-							border-color="#7a7c7f"
-						>
-							The company will begin working on the project and keep you updated on progress.
-						</Text>
-					</Box>
-				</Box>
-			</Box>
 		</Section>
 		<Link
 			font={"--capture"}
