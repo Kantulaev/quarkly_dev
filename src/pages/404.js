@@ -14,7 +14,7 @@ export default (() => {
 			<meta name={"description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
 			<meta property={"og:title"} content={"Элитный Жилой Комплекс  \"2 КИТА\" г. Избербаш"} />
 			<meta property={"og:description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/photo_2023-05-14_21-34-09.jpg?v=2023-05-16T06:40:36.251Z"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05:35:34.295Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2023-05-16T06:41:53.296Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />

@@ -15,7 +15,7 @@ export default (() => {
 			<meta name={"description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
 			<meta property={"og:title"} content={"Элитный Жилой Комплекс  \"2 КИТА\" г. Избербаш"} />
 			<meta property={"og:description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/photo_2023-05-14_21-34-09.jpg?v=2023-05-16T06:40:36.251Z"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05:35:34.295Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2023-05-16T06:41:53.296Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
@@ -97,7 +97,7 @@ export default (() => {
 					md-text-align="left"
 					sm-align-self="flex-start"
 				>
-					Элитный{" "}
+					Элитный
 					<br />
 					жилой комплекс
 					<br />
@@ -116,7 +116,7 @@ export default (() => {
 				<Box display="flex" lg-width="100%" lg-justify-content="space-between" sm-margin="0px 0px 20px 0px">
 					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
 						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							1540
+							1210
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
 							Квартир
@@ -221,7 +221,7 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="#e5e5e5">
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-lightD1">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -275,7 +275,7 @@ export default (() => {
 					align-items="flex-start"
 					margin="40px 0px 16px 32px"
 				>
-					Мечтаете о комфортном и безопасном жилье для всей семьи?{" "}
+					Мечтаете о комфортном и безопасном жилье для всей семьи?
 					<br />
 					Перед вами новый жилой комплекс, который сочетает в себе надежность монолитного дома, близость к детскому саду и особый шарм местных горячих источников!
 				</Text>
@@ -359,7 +359,7 @@ export default (() => {
 					lg-margin="0px 0px 48px 0px"
 					sm-margin="0px 0px 24px 0px"
 				>
-					200м от моря.{" "}
+					200м от моря.
 					<br />
 					Возле городского пляжа
 				</Text>
@@ -425,7 +425,7 @@ export default (() => {
 						md-text-align="left"
 						lg-font="--headline2"
 					>
-						Новый{" "}
+						Новый
 						<br />
 						детский сад
 					</Text>
@@ -438,13 +438,17 @@ export default (() => {
 						align-items="flex-start"
 						lg-font="--headline4"
 					>
-						Современный инфраструктура,{" "}
+						Современный инфраструктура,
 						<br />
-						где созданы идеальные условия{" "}
+						где созданы идеальные условия
 						<br />
 						для развития малышей..
 						<br />
-						Тут есть прекрасно оборудованные игровые зоны, где дети могут играть и заниматься под руководством опытных педагогов.{" "}
+						Тут есть прекрасно оборудованные игровые зоны,
+						<br />
+						где дети могут играть и заниматься
+						<br />
+						под руководством опытных педагогов.
 					</Text>
 				</Box>
 			</Box>
@@ -522,7 +526,7 @@ export default (() => {
 						align-items="flex-start"
 						lg-font="--headline4"
 					>
-						В пешей доступности  находятся чудесные горячие источники и  самые полезные минеральные воды{"\n\n"}
+						В пешей доступности  находятся чудесные горячие источники и  самые полезные минеральные воды
 					</Text>
 				</Box>
 			</Box>
@@ -609,7 +613,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="#e5e5e5">
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-lightD1">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -662,13 +666,15 @@ export default (() => {
 					align-items="flex-start"
 					margin="40px 0px 16px 32px"
 				>
-					Центральный двор с возможностью{" "}
+					Центральный двор с возможностью
 					<br />
 					провести время на свежем воздухе.
 					<br />
 					Подземная парковка для вас и гостей.
 					<br />
-					В новом жилом комплексе действительно подумали{" "}
+					В новом жилом комплексе
+					<br />
+					{" "}действительно подумали
 					<br />
 					о комфорте и удобстве жильцов.
 				</Text>
@@ -692,7 +698,116 @@ export default (() => {
 				loading="lazy"
 			/>
 		</Section>
-		<Section padding="120px 0 130px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="#ffffff">
+		<Section padding="65px 0 65px 0" sm-padding="60px 0 60px 0" quarkly-title="Images-2">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				margin="0px 0px 0px 0px"
+				padding="16px 16px 16px 16px"
+				display="flex"
+				justify-content="center"
+				lg-width="100%"
+				align-items="flex-start"
+				lg-margin="0px 0px 0px 0px"
+				sm-padding="0px 0px 0px 0px"
+				sm-margin="0px 0px 30px 0px"
+				width="75%"
+			>
+				<Box
+					height="auto"
+					overflow-x="hidden"
+					overflow-y="hidden"
+					hover-transform="translateY(-10px)"
+					padding="0px 0px 65% 0px"
+					width="100%"
+					position="relative"
+					transform="translateY(0px)"
+					transition="transform 0.2s ease-in-out 0s"
+				>
+					<Image
+						position="absolute"
+						display="block"
+						right={0}
+						min-height="100%"
+						bottom={0}
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21:16:07.513Z"
+						object-fit="none"
+						width="100%"
+						top={0}
+						left={0}
+						loading="lazy"
+						alt="аквапарк"
+						title="аквапарк"
+					/>
+				</Box>
+			</Box>
+			<Box
+				lg-align-items="center"
+				lg-margin="0px 0px 0px 0px"
+				lg-order="1"
+				justify-content="space-between"
+				sm-margin="0px 0px 0px 0px"
+				sm-padding="0px 0px 0px 0px"
+				padding="16px 16px 16px 16px"
+				display="flex"
+				width="25%"
+				flex-direction="column"
+				align-items="flex-start"
+				lg-width="100%"
+			>
+				<Text
+					margin="0px 0px 40px 0px"
+					color="--darkL2"
+					font="--headline4"
+					lg-text-align="center"
+					md-text-align="left"
+				>
+					В 300м. от дома находится популярный среди туристов, а также местных жителей
+					<br />
+					<Span
+						font-weight="normal"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+						font="900 28px/36.4px Manrope, sans-serif"
+					>
+						аквапарк "Океан"
+					</Span>
+				</Text>
+				<Box
+					height="243px"
+					overflow-x="hidden"
+					position="relative"
+					transform="translateY(0px)"
+					transition="transform 0.2s ease-in-out 0s"
+					hover-transform="translateY(-10px)"
+					width="243px"
+					overflow-y="hidden"
+					border-radius="100%"
+				>
+					<Image
+						right={0}
+						bottom={0}
+						min-height="100%"
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02:23:18.374Z"
+						object-fit="cover"
+						width="100%"
+						left={0}
+						position="absolute"
+						display="block"
+						top={0}
+						alt="аквапарк"
+						title="аквапарк"
+						loading="lazy"
+					/>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0 40px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="--color-lightD1">
 			<Text
 				margin="0px 0px 80px 0px"
 				font="--headline2"
@@ -761,7 +876,10 @@ export default (() => {
 							md-border-color="--color-darkL2"
 							md-color="--darkL2"
 						>
-							Коммерческий этаж этого комплекса - настоящий рай для любителей шоппинга и вкусной еды. Здесь вы найдете все, что нужно для удобства жизни и деловой деятельности - магазины, кафе, прачечную, дом быта, ателье и многое другое.
+							Коммерческий этаж этого комплекса - настоящий рай для любителей шоппинга и вкусной еды. Здесь вы найдете все,
+					что нужно для удобства жизни и деловой активности  - магазины, кафе, прачечную,
+							<br />
+							{" "}дом быта, ателье и многое другое.
 						</Text>
 					</Box>
 				</Box>
@@ -801,7 +919,7 @@ export default (() => {
 							font="--headline4"
 							text-align="center"
 						>
-							Подземная парковка
+							Подземная парковка и резервуар для воды
 						</Text>
 						<Text
 							margin="0px 0px 0px 0px"
@@ -811,7 +929,10 @@ export default (() => {
 							border-color="#7a7c7f"
 							md-color="--darkL2"
 						>
-							{" "}Вы можете быть уверены, что ваш автомобиль всегда будет находиться в безопасности и удобство парковки не заставит вас мучиться.
+							{" "}Вы можете быть уверены, что ваш автомобиль всегда будет находиться в безопасности и удобство парковки не
+					заставит вас мучиться.
+							<br />
+							Резервуар для воды обеспечивает бесперебойный доступ к воде 24/7
 						</Text>
 					</Box>
 				</Box>
@@ -861,7 +982,107 @@ export default (() => {
 							border-color="#7a7c7f"
 							md-color="--darkL2"
 						>
-							При этом жильцы получают самый высокий уровень комфорта и безопасности. В каждом подъезде есть по 2 лифта, чтобы избежать постоянных очередей и неудобств. А центральный благоустроенный двор с возможностью провести время на свежем воздухе - это просто здорово!
+							Благоустроенный двор с возможностью провести время на свежем воздухе без машин.
+							<br />
+							При этом жильцы получают самый высокий уровень комфорта и безопасности. 
+В каждом подъезде есть по 2 лифта, чтобы избежать постоянных очередей и неудобств.{" "}
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-dark">
+			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
+			<Box
+				width="50%"
+				display="flex"
+				flex-direction="column"
+				justify-content="space-between"
+				md-width="100%"
+				padding="0px 80px 0px 0px"
+				lg-padding="0px 30px 0px 0px"
+				md-padding="0px 0px 0px 0px"
+			>
+				<Text margin="0px 0px 0px 0px" color="--grey" font="--lead" md-margin="0px 0px 20px 0px">
+					<Link href="https://glava.e-dag.ru/press/353/" color="--grey" target="_blank">
+						Изучить подробнее
+					</Link>
+				</Text>
+				<Text margin="0px 0px 0px 0px" color="--light" font="--headline2" md-margin="0px 0px 30px 0px">
+					Каспийский туристический кластер{" "}
+				</Text>
+			</Box>
+			<Box
+				width="50%"
+				display="flex"
+				flex-direction="column"
+				justify-content="space-between"
+				md-width="100%"
+			>
+				<Text margin="0px 0px 40px 0px" color="--light" font="--headline4">
+					Создание туристско-рекреационной особой экономической зоны в Дагестане{" "}
+				</Text>
+				<Text margin="0px 0px 0px 0px" color="--light" font="--lead">
+					"Создание особых экономических зон туристско-рекреационного типа на территории Дагестана является мощным
+			механизмом поддержки бизнеса в сфере туризма. Сейчас вместе с Кавказ.РФ разрабатываем концепцию курорта с учетом
+			интересов потенциальных резидентов и дальнейшего развития прибрежной зоны", - сказал Меликов.
+				</Text>
+			</Box>
+		</Section>
+		<Section padding="60px 0" sm-padding="40px 0" color="--dark">
+			<Text as="h1" font="--headline1" margin="0 0 24px 0">
+				Ответы на вопросы
+			</Text>
+			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
+				<Box padding="16px 16px 16px 16px" width="33.333%" md-width="100%">
+					<Box display="flex" flex-direction="column">
+						<Text as="h3" font="--headline3" margin="12px 0">
+							Кто будет тут проживать?
+						</Text>
+						<Text as="p" font="--lead" margin="12px 0" color="--greyD2">
+							Квартиры уже покупают люди со всех регионов России.
+							<br />
+							Основными на данный момент являются
+							<br />
+							{" "}Москва, Санкт-Петербург,
+							<br />
+							Республика Татарстан,
+							<br />
+							Республика Башкортостан.
+						</Text>
+					</Box>
+				</Box>
+				<Box width="33.333%" padding="16px 16px 16px 16px" md-width="100%">
+					<Box display="flex" flex-direction="column">
+						<Text as="h3" font="--headline3" margin="12px 0 -12px 0">
+							Какой тут
+							<br />
+							климат?
+						</Text>
+						<Text
+							as="p"
+							font="--lead"
+							color="--greyD2"
+							margin="12px 0px 12px 0px"
+							flex="0 1 auto"
+							padding="0 0px 0px 0px"
+							display="block"
+						>
+							<br />
+							В Избербаше преобладает умеренно континентальный климат.
+Зимы непродолжительные и мягкие. 
+Лето очень теплое и длительное.{" "}
+							<br />
+						</Text>
+					</Box>
+				</Box>
+				<Box width="33.333%" padding="16px 16px 16px 16px" md-width="100%">
+					<Box display="flex" flex-direction="column">
+						<Text as="h3" font="--headline3" margin="12px 0">
+							Будет ли регион развиваться
+						</Text>
+						<Text as="p" font="--lead" margin="12px 0" color="--greyD2">
+							Город Избербаш входит в Каспийский туристический кластер и будет являться приоритетным для развития в регионе.
 						</Text>
 					</Box>
 				</Box>
@@ -916,14 +1137,12 @@ export default (() => {
 							sm-width="44px"
 						/>
 						<Text margin="0px 0px 0px 0px" color="#ffffff" font="--headline2" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Без предоплаты
+							100% - предоплата
 						</Text>
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
-							Рассрочка на 3 года.{" "}
-							<br />
-							Цена 50 тыс за кв.м.
+							Цена 40 тыс за кв.м.
 						</Text>
 					</Box>
 				</Box>
@@ -944,14 +1163,14 @@ export default (() => {
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
-							Остаток в течении 3-х лет.{" "}
+							Остаток в течении 3-х лет.
 							<br />
-							Цена 45 тыс. за кв.м.{"\n\n"}
+							Цена 45 тыс. за кв.м.
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--lightD2" font="--lead" />
 					</Box>
 				</Box>
-				<Box display="flex" flex-direction="column" margin="0px 0px 0px 0px">
+				<Box display="flex" flex-direction="column">
 					<Box display="flex" align-items="center" margin="0px 0px 16px 0px">
 						<Hr
 							width="54px"
@@ -963,12 +1182,14 @@ export default (() => {
 							sm-width="44px"
 						/>
 						<Text margin="0px 0px 0px 0px" color="#ffffff" font="--headline2" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							100% - предоплата
+							Без предоплаты
 						</Text>
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
-							Цена 40 тыс за кв.м.
+							Рассрочка на 3 года.
+							<br />
+							Цена 50 тыс за кв.м.
 						</Text>
 					</Box>
 				</Box>
@@ -1081,7 +1302,7 @@ export default (() => {
 						font="--headline4"
 						flex="1 1 auto"
 					>
-						Нажмите на кнопку снизу для просмотра  всех документов{" "}
+						Нажмите на кнопку снизу для просмотра  всех документов
 						<br />
 						на стройку
 					</Text>
@@ -1147,6 +1368,24 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section background="--color-darkL1" padding="80px 0 80px 0" id="contacts" quarkly-title="Contacts">
+			<Override
+				slot="SectionContent"
+				display="flex"
+				flex-direction="row"
+				max-width="100%"
+				lg-flex-direction="column"
+				lg-align-items="center"
+				lg-width="100%"
+			/>
+			<Image
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22:51:10.370Z"
+				display="inline-flex"
+				width="50%"
+				lg-width="100%"
+				loading="lazy"
+				alt="2 кита"
+				title="2 кита"
+			/>
 			<Box
 				display="flex"
 				align-items="center"
@@ -1154,6 +1393,10 @@ export default (() => {
 				justify-content="center"
 				padding="0px 200px 0px 200px"
 				lg-padding="0px 0px 0px 0px"
+				width="50%"
+				lg-align-content="flex-start"
+				lg-margin="96px 0px 0px 0px"
+				lg-width="80%"
 			>
 				<Text
 					margin="0px 0px 60px 0px"
@@ -1161,17 +1404,33 @@ export default (() => {
 					color="--light"
 					text-align="center"
 					sm-font="normal 700 62px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					width="500px"
 				>
 					Контакты
 					<br />
 					для связи
 				</Text>
-				<Text margin="0px 0px 48px 0px" font="--headline3" color="--light" text-align="center">
+				<Text
+					margin="0px 0px 48px 0px"
+					font="--headline3"
+					color="--light"
+					text-align="center"
+					display="block"
+					width="350px"
+				>
 					<Link href="tel:+79286775522" color="#fafafa" border-color="#5959ff" link-color="#ffffff">
+						Позвонить
+						<br />
 						+7 928 677-55-22
 					</Link>
 				</Text>
-				<Text margin="0px 0px 24px 0px" font="--headline3" color="--light" text-align="center">
+				<Text
+					margin="0px 0px 24px 0px"
+					font="--headline3"
+					color="--light"
+					text-align="center"
+					width="500px"
+				>
 					<Link
 						href="https://yandex.ru/maps/-/CCUk70xXsC"
 						md-color="#ffffff"
@@ -1180,18 +1439,70 @@ export default (() => {
 						lg-color="#ffffff"
 						color="--light"
 					>
+						Посмотреть на карте
+						<br />
 						г. Избербаш
 						<br />
-						Межлумова 11/1
+						О. А. Межлумова 11/1
 					</Link>
 				</Text>
 				<Box min-width="100px" min-height="100px" display="flex">
-					<LinkBox margin="0px 32px 0px 0px" href="https://t.me/+79882200199" target="_blank">
-						<Icon category="fa" icon={FaTelegram} size="64px" color="--light" />
-					</LinkBox>
-					<LinkBox href="https://wa.me/79882200199" target="_blank">
-						<Icon category="fa" icon={FaWhatsappSquare} size="64px" color="--light" />
-					</LinkBox>
+					<Button
+						top="871px"
+						left="324px"
+						z-index="2"
+						href="https://t.me/+79882200199"
+						bottom="2750.999984741211px"
+						height="50px"
+						right="1402.310015258789px"
+						width="150px"
+						overflow-x="visible"
+						overflow-y="visible"
+						position="static"
+						display="flex"
+						align-items="center"
+						margin="32px 24px 16px 0px"
+						border-radius="40px"
+						target="_blank"
+						type="link"
+					>
+						<Icon category="fa" icon={FaTelegram} size="32px" margin="0px 8px 0px 0px" />
+						<Span text-align="center" position="static" display="grid" flex="1 1 0%">
+							Telegram
+						</Span>
+					</Button>
+					<Button
+						top="871px"
+						left="324px"
+						z-index="2"
+						href="https://wa.me/79882200199"
+						bottom="2750.999984741211px"
+						right="1402.310015258789px"
+						overflow-x="visible"
+						overflow-y="visible"
+						position="static"
+						display="flex"
+						width="150px"
+						height="50px"
+						align-items="center"
+						border-radius="40px"
+						margin="32px 0px 0px 0px"
+						disabled={false}
+						background="#00cc0f"
+						target="_blank"
+						type="link"
+					>
+						<Icon category="fa" icon={FaWhatsapp} size="32px" margin="0px 8px 0px 0px" />
+						<Span
+							text-align="center"
+							position="static"
+							display="grid"
+							flex="1 1 0%"
+							as="span"
+						>
+							Whatsapp
+						</Span>
+					</Button>
 				</Box>
 			</Box>
 		</Section>
@@ -1207,6 +1518,20 @@ export default (() => {
 				sm-flex-wrap="wrap"
 				sm-margin="18px 28.8px 0px 28.8px"
 			/>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				align-content="center"
+				justify-content="center"
+			>
+				<LinkBox margin="0px 32px 0px 0px" href="https://t.me/+79882200199" target="_blank">
+					<Icon category="fa" icon={FaTelegram} size="64px" color="--darkL1" />
+				</LinkBox>
+				<LinkBox href="https://wa.me/79882200199" target="_blank">
+					<Icon category="fa" icon={FaWhatsappSquare} size="64px" color="--darkL1" />
+				</LinkBox>
+			</Box>
 			<Text
 				margin="0"
 				md-margin="0px 0 20px 0"
