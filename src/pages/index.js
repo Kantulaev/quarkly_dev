@@ -92,13 +92,15 @@ export default (() => {
 					color="--dark"
 					font="--headline1"
 					lg-text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="--headline1"
 					md-text-align="left"
 					sm-align-self="flex-start"
 				>
-					Квартиры.
+					Элитный{" "}
 					<br />
-					У берега моря
+					жилой комплекс
+					<br />
+					у берега моря
 				</Text>
 				<Text
 					margin="0px 0px 40px 0px"
@@ -198,7 +200,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img957.jpg?v=2023-05-17T04:22:14.741Z"
 					border-radius="24px"
 					object-fit="cover"
 					width="100%"
@@ -224,6 +226,8 @@ export default (() => {
 				lg-width="100%"
 				md-margin="0px 0px 20px 0px"
 				sm-margin="0px 0px 30px 0px"
+				height="auto"
+				align-self="flex-start"
 			>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -233,9 +237,11 @@ export default (() => {
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					padding="0px 16px 0px 0px"
 				>
-					Прекрасный
+					Полностью
 					<br />
-					вид на море
+					монолитный
+					<br />
+					дом
 				</Text>
 			</Box>
 			<Box
@@ -247,32 +253,25 @@ export default (() => {
 				lg-align-items="center"
 				lg-margin="0px 0px 0px 0px"
 				sm-padding="0px 0px 0px 0px"
-				padding="28px 0px 16px 16px"
 				lg-width="100%"
 				md-margin="0px 0px 20px 0px"
 				sm-margin="0px 0px 0px 0px"
 			>
 				<Text
-					margin="0px 0px 0px 0px"
 					color="--darkL1"
 					font="--headline4"
 					lg-text-align="center"
 					display="flex"
 					align-items="flex-start"
+					margin="40px 0px 16px 32px"
 				>
-					Хотите купить квартиру,{" "}
+					Мечтаете о комфортном и безопасном жилье для всей семьи?{" "}
 					<br />
-					где каждое утро вы будете просыпаться с видом на море?{" "}
-					<br />
-					Наш новый жилой комплекс с высокой сейсмостойкостью и{" "}
-					<br />
-					современной инфраструктурой -
-					<br />
-					{" "}идеальное место для вашей мечты!
+					Перед вами новый жилой комплекс, который сочетает в себе надежность монолитного дома, близость к детскому саду и особый шарм местных горячих источников!
 				</Text>
 			</Box>
 			<Image
-				src="https://images.unsplash.com/photo-1533423996375-f914ab160932?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img948.jpg?v=2023-05-17T04:22:14.722Z"
 				object-fit="cover"
 				width="100%"
 				height="800px"
@@ -335,7 +334,7 @@ export default (() => {
 					sm-margin="0px 0px 24px 0px"
 					md-font="normal 800 60px/1.2 &quot;Manrope&quot;, sans-serif"
 				>
-					Удобное местоположение
+					Удобное расположение
 				</Text>
 				<Text
 					margin="48px 0px 0px 0px"
@@ -359,13 +358,13 @@ export default (() => {
 				justify-content="flex-start"
 				align-items="flex-start"
 				lg-align-items="flex-start"
-				padding="0px 0px 32px 16px"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
 				lg-justify-content="flex-start"
 				lg-padding="0px 0px 0px 0px"
-				margin="48px 0px 0px 0px"
+				padding="0 0px 0px 32px"
+				margin="32px 0px 0px 0px"
 			>
 				<Box
 					width="80%"
@@ -425,7 +424,9 @@ export default (() => {
 					>
 						Современный инфраструктура,{" "}
 						<br />
-						где созданы идеальные условия для развития малышей..
+						где созданы идеальные условия{" "}
+						<br />
+						для развития малышей..
 						<br />
 						Тут есть прекрасно оборудованные игровые зоны, где дети могут играть и заниматься под руководством опытных педагогов.{" "}
 					</Text>
@@ -437,7 +438,6 @@ export default (() => {
 				justify-content="flex-start"
 				align-items="flex-start"
 				lg-align-items="flex-start"
-				padding="0px 0px 32px 16px"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
@@ -446,6 +446,8 @@ export default (() => {
 				order="0"
 				width="40%"
 				align-content="flex-start"
+				margin="0px 0px 384px 0px"
+				lg-margin="0px 0px 0 0px"
 			>
 				<Box
 					width="80%"
@@ -459,12 +461,12 @@ export default (() => {
 					border-radius="24px"
 					margin="0px 0px 34px 0px"
 					lg-width="50%"
-					lg-margin="0px 32px 34px 0px"
 					lg-padding="0px 0px 75% 0px"
 					sm-margin="0px 0px 24px 0px"
 					sm-width="100%"
 					sm-padding="0px 0px 135% 0px"
 					height="auto"
+					lg-margin="0px 32px 34px 0px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/5-3%20%281%29.jpg?v=2023-05-17T02:23:09.929Z"
@@ -493,7 +495,7 @@ export default (() => {
 						Горячие источники
 					</Text>
 					<Text
-						margin="0px 0px 0px 0px"
+						margin="0px 0px 32px 0px"
 						color="--darkL2"
 						font="--lead"
 						lg-text-align="left"
@@ -512,14 +514,13 @@ export default (() => {
 				justify-content="flex-start"
 				align-items="flex-start"
 				lg-align-items="flex-start"
-				padding="0px 0px 32px 16px"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
 				lg-justify-content="flex-start"
 				lg-padding="0px 0px 0px 0px"
 				order="0"
-				margin="32px 0px 0px 144px"
+				margin="256px 0px 0px 144px"
 				lg-margin="32px 0px 0px 0"
 			>
 				<Box
@@ -579,14 +580,94 @@ export default (() => {
 					>
 						Буквально в 2 минутах располагается
 						<br />
-						{" "}городской пляж г.Избербаш.
+						{" "}городской пляж г. Избербаш.
 						<br />
-						Приятный песок и теплая вода всегда рядом.
+						Приятный песок и теплая вода - всегда рядом.
 					</Text>
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="120px 0 130px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="#e5e5e5">
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="#e5e5e5">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="flex"
+				width="50%"
+				flex-direction="column"
+				justify-content="center"
+				align-items="flex-end"
+				lg-align-items="center"
+				lg-margin="0px 0px 20px 0px"
+				sm-padding="0px 0px 0px 0px"
+				padding="16px 16px 16px 0px"
+				lg-width="100%"
+				md-margin="0px 0px 20px 0px"
+				sm-margin="0px 0px 30px 0px"
+				height="auto"
+				align-self="flex-start"
+			>
+				<Text
+					margin="0px 0px 0px 0px"
+					color="--dark"
+					font="--headline1"
+					lg-text-align="center"
+					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					padding="0px 16px 0px 0px"
+					text-align="right"
+				>
+					Современная
+					<br />
+					среда
+				</Text>
+			</Box>
+			<Box
+				display="flex"
+				width="50%"
+				flex-direction="column"
+				justify-content="flex-start"
+				align-items="flex-start"
+				lg-align-items="center"
+				lg-margin="0px 0px 0px 0px"
+				sm-padding="0px 0px 0px 0px"
+				lg-width="100%"
+				md-margin="0px 0px 20px 0px"
+				sm-margin="0px 0px 0px 0px"
+			>
+				<Text
+					color="--darkL1"
+					font="--headline4"
+					lg-text-align="center"
+					display="flex"
+					align-items="flex-start"
+					margin="40px 0px 16px 32px"
+				>
+					Центральный двор с возможностью{" "}
+					<br />
+					провести время на свежем воздухе.
+					<br />
+					Подземная парковка для вас и гостей.
+					<br />
+					В новом жилом комплексе действительно подумали{" "}
+					<br />
+					о комфорте и удобстве жильцов.
+				</Text>
+			</Box>
+			<Image
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/img973.jpg?v=2023-05-17T04:22:14.710Z"
+				object-fit="cover"
+				width="100%"
+				height="800px"
+				grid-column="2 / span 2"
+				border-radius="24px"
+				sm-grid-column="1 / span 1"
+				md-flex="0 1 auto"
+				md-align-self="auto"
+				md-order="0"
+				md-display="grid"
+				md-height="400px"
+				margin="48px 0px 0px 0px"
+			/>
+		</Section>
+		<Section padding="120px 0 130px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="#ffffff">
 			<Text
 				margin="0px 0px 80px 0px"
 				font="--headline2"
@@ -1102,8 +1183,19 @@ export default (() => {
 				sm-height="auto"
 				display="block"
 			>
-				<Strong sm-text-align="center" sm-font="--lead">
-					ЖК "2Кита" - Квартиры у берега моря. Рассрочка на 3 года.
+				<Strong
+					sm-text-align="center"
+					sm-font="--lead"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					ЖК "2 Кита" - Квартиры у берега моря. Рассрочка на 3 года.
 				</Strong>
 			</Text>
 		</Section>
