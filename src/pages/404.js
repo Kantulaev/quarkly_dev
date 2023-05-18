@@ -10,11 +10,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				Элитный Жилой Комплекс  "2 КИТА" г. Избербаш
+				Элитный ЖК  "2 КИТА" г. Избербаш
 			</title>
-			<meta name={"description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
-			<meta property={"og:title"} content={"Элитный Жилой Комплекс  \"2 КИТА\" г. Избербаш"} />
-			<meta property={"og:description"} content={"Элитный ЖК у берега моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
+			<meta name={"description"} content={"Элитный ЖК на берегу моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
+			<meta property={"og:title"} content={"Элитный ЖК  \"2 КИТА\" г. Избербаш"} />
+			<meta property={"og:description"} content={"Элитный ЖК на берегу моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05:35:34.295Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2023-05-16T06:41:53.296Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
