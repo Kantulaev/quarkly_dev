@@ -101,7 +101,7 @@ export default (() => {
 					<br />
 					жилой комплекс
 					<br />
-					у берега моря
+					на берегу моря
 				</Text>
 				<Text
 					margin="0px 0px 40px 0px"
@@ -116,18 +116,18 @@ export default (() => {
 				<Box display="flex" lg-width="100%" lg-justify-content="space-between" sm-margin="0px 0px 20px 0px">
 					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
 						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							1210
-						</Text>
-						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
-							Квартир
-						</Text>
-					</Box>
-					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
-						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
 							200м
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
 							До пляжа
+						</Text>
+					</Box>
+					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
+						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
+							300м
+						</Text>
+						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
+							До аквапарка "Океан"
 						</Text>
 					</Box>
 					<Box display="flex" flex-direction="column">
@@ -724,6 +724,7 @@ export default (() => {
 					position="relative"
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
+					border-radius="80px"
 				>
 					<Image
 						position="absolute"
@@ -739,6 +740,7 @@ export default (() => {
 						loading="lazy"
 						alt="аквапарк"
 						title="аквапарк"
+						border-radius="80px"
 					/>
 				</Box>
 			</Box>
@@ -1027,7 +1029,7 @@ export default (() => {
 				<Text margin="0px 0px 0px 0px" color="--light" font="--lead">
 					"Создание особых экономических зон туристско-рекреационного типа на территории Дагестана является мощным
 			механизмом поддержки бизнеса в сфере туризма. Сейчас вместе с Кавказ.РФ разрабатываем концепцию курорта с учетом
-			интересов потенциальных резидентов и дальнейшего развития прибрежной зоны", - сказал Меликов.
+			интересов потенциальных резидентов и дальнейшего развития прибрежной зоны", - С. А. Меликов.
 				</Text>
 			</Box>
 		</Section>
@@ -1071,20 +1073,25 @@ export default (() => {
 							display="block"
 						>
 							<br />
-							В Избербаше преобладает умеренно континентальный климат.
-Зимы непродолжительные и мягкие. 
-Лето очень теплое и длительное.{" "}
+							В Избербаше преобладает сухой субтропический климат.
 							<br />
+							{"\n"}Благодаря морю и горной защите
+							<br />
+							зимы непродолжительные и мягкие, а{"  "}
+							<br />
+							лето и осень очень теплые и длительные.{" "}
 						</Text>
 					</Box>
 				</Box>
 				<Box width="33.333%" padding="16px 16px 16px 16px" md-width="100%">
 					<Box display="flex" flex-direction="column">
 						<Text as="h3" font="--headline3" margin="12px 0">
-							Будет ли регион развиваться
+							Будет ли регион развиваться?
 						</Text>
 						<Text as="p" font="--lead" margin="12px 0" color="--greyD2">
-							Город Избербаш входит в Каспийский туристический кластер и будет являться приоритетным для развития в регионе.
+							Новый морской курорт, поддержанный Президентом РФ, будет расположен в районе Избербаша и Каякента и будет являться приоритетным для развития в регионе. Планируется создать всю необходимую пляжную инфраструктуру:{" "}
+							<br />
+							отели, яхт-клубы и многое другое.
 						</Text>
 					</Box>
 				</Box>
@@ -1192,6 +1199,333 @@ export default (() => {
 							Рассрочка на 3 года.
 							<br />
 							Цена 50 тыс за кв.м.
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="90px 0 100px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/blurred-premium-violet-color-abstract-wallpaper.jpg?v=2023-04-27T14:14:02.129Z) 0% 0% /cover repeat scroll padding-box" quarkly-title="Reviews-4">
+			<Text
+				margin="0px 0px 20px 0px"
+				font="normal 500 20px/1.5 --fontFamily-sansHelvetica"
+				color="--grey"
+				lg-margin="0px 0px 20px 0px"
+				text-align="center"
+			>
+				Отзывы с Яндекс Карты
+			</Text>
+			<Text margin="0px 0px 70px 0px" font="normal 600 46px/1.2 --fontFamily-sans" text-align="center" md-margin="0px 0px 50px 0px">
+				Что люди говорят о регионе{" "}
+			</Text>
+			<Box min-width="100px" min-height="100px" display="flex" lg-flex-direction="column">
+				<Box
+					min-width="100px"
+					min-height="100px"
+					width="25%"
+					lg-width="100%"
+					lg-display="flex"
+					md-flex-direction="column"
+					flex-direction="column"
+					lg-flex-direction="row"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="20px 20px 20px 20px"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						display="flex"
+						flex-direction="column"
+						lg-margin="0px 0 25px 0px"
+						sm-padding="20px 15px 20px 15px"
+						margin="0px 5px 25px 0px"
+						justify-content="space-between"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
+								Чистый пляж, прозрачная вода! Вдоль берега много разных отелей цены доступные если чего-то не хватает можно заказать вам сделают доставку. Вода на столько чистая аж видно рыбы даже ночью у берега. Можно с детьми, так как глубина от берега метров 20 идёшь а вода по пояс. Рекомендую всем!{"\n\n"}
+							</Text>
+						</Box>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+								Марат Расулов
+							</Text>
+						</Box>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="20px 20px 20px 20px"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						display="flex"
+						flex-direction="column"
+						lg-margin="0px 0 25px 0px"
+						sm-padding="20px 15px 20px 15px"
+						margin="0px 5px 25px 0px"
+						justify-content="space-between"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
+								Рынок просто супер! Я заезжал специально купить овощи, в частности помидоры. Купил 2 ящика, примерно 23 кг, 70 руб за кг. В Москве 350 руб за кг дагестанских помидор. Взял огурчики, свежей клубнички немножко, аджика, капусту. В общем всего понемножку))) Рекомендую{"\n\n"}
+							</Text>
+						</Box>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+								Александр
+							</Text>
+						</Box>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="20px 20px 20px 20px"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						display="flex"
+						flex-direction="column"
+						lg-margin="0px 0 25px 0px"
+						sm-padding="20px 15px 20px 15px"
+						margin="0px 5px 25px 0px"
+						justify-content="space-between"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
+								Отличный аквапарк. Хоть и маленький, но в нем есть всё для хорошего отдыха. Достаточное количество лежаков, абсолютно доступная цена, большое разнообразие еды на фудкорте, при чем не по цене почки, как обычно бывает в таких заведениях - не может не радовать!{"\n\n"}
+							</Text>
+						</Box>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+								Мария
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box min-width="100px" min-height="100px" width="50%" lg-width="100%">
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="30px 0 10px 0"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						margin="0px 20px 25px 20px"
+						display="flex"
+						flex-direction="column"
+						justify-content="space-between"
+						lg-margin="0px 0 25px 0px"
+						md-padding="20px 0 10px 0"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text
+								margin="0px 0px 28px 0px"
+								font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
+								color="--darkL1"
+								padding="0px 30px 0px 30px"
+								md-padding="0px 20px 0px 20px"
+								md-margin="0px 0px 25px 0px"
+							>
+								Избербаш. Пляжное место Дагестана. Здесь я познакомилась с Каспием.
+Огромным, могучим и чертовски манящим. Городской пляж на то и городской, чтобы быть во всеобщей городской доступности. Особого мусора я не заметила, берег относительно чистый, море любимое прозрачное и тёплое. Огромным преимуществом этого места- плавный заход в воду без резких перепадов. В некоторых местах на столько плавный, что приходилось идти по воде пешком более 100 метров, прежде чем появлялась возможность нырнуть под воду, но это большой плюс для семей с детьми. Такой детский пляж. А какие там рифы...{" \n\n"}
+							</Text>
+						</Box>
+						<Box
+							min-width="100px"
+							display="flex"
+							justify-content="space-between"
+							align-items="flex-start"
+							padding="0px 30px 0px 30px"
+							border-width="1px 0 0 0"
+							border-style="solid"
+							border-color="--color-lightD2"
+							md-padding="0px 20px 0px 20px"
+							md-min-width={0}
+							md-min-height={0}
+						>
+							<Box min-width="100px" display="flex" align-items="center">
+								<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+									Наталья
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="30px 0 10px 0"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						margin="0px 20px 25px 20px"
+						display="flex"
+						flex-direction="column"
+						justify-content="space-between"
+						lg-margin="0px 0 25px 0px"
+						md-padding="20px 0 10px 0"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text
+								margin="0px 0px 28px 0px"
+								font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
+								color="--darkL1"
+								padding="0px 30px 0px 30px"
+								md-padding="0px 20px 0px 20px"
+								md-margin="0px 0px 25px 0px"
+							>
+								Превосходный рынок! Разные овощи, фрукты, зелень, ягоды. Всё по очень приятным ценам. Можно купить разнообразные свежие местные сладости. Есть рыба свежая, вяленая и копчёная. Домашняя молочка-очень вкусная и натуральная. Свежее мясо. Много орехов, чаи, сухофрукты, специи. Есть и безалкогольные напитки. Безопасно, но соблюдайте дресс код, уважайте традиции. Однозначно рекомендую.{"\n\n"}
+							</Text>
+						</Box>
+						<Box
+							min-width="100px"
+							display="flex"
+							justify-content="space-between"
+							align-items="flex-start"
+							padding="0px 30px 0px 30px"
+							border-width="1px 0 0 0"
+							border-style="solid"
+							border-color="--color-lightD2"
+							md-padding="0px 20px 0px 20px"
+							md-min-width={0}
+							md-min-height={0}
+						>
+							<Box min-width="100px" display="flex" align-items="center">
+								<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+									Дарья
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="30px 0 10px 0"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						margin="0px 20px 25px 20px"
+						display="flex"
+						flex-direction="column"
+						justify-content="space-between"
+						lg-margin="0px 0 25px 0px"
+						md-padding="20px 0 10px 0"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text
+								margin="0px 0px 28px 0px"
+								font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
+								color="--darkL1"
+								padding="0px 30px 0px 30px"
+								md-padding="0px 20px 0px 20px"
+								md-margin="0px 0px 25px 0px"
+							>
+								(О горячих источниках) Я в восторге!! Очень понравилось! Вода горячая, не пахнет сероводородом! Можно даже душ не принимать после. Вода бурлит)) Отдельные входы и зоны для мужчин и женщин. Есть место для переодевания.
+Обустроено отлично, бесплатно.{"\n\n"}
+							</Text>
+						</Box>
+						<Box
+							min-width="100px"
+							display="flex"
+							justify-content="space-between"
+							align-items="flex-start"
+							padding="0px 30px 0px 30px"
+							border-width="1px 0 0 0"
+							border-style="solid"
+							border-color="--color-lightD2"
+							md-padding="0px 20px 0px 20px"
+							md-min-width={0}
+							md-min-height={0}
+						>
+							<Box min-width="100px" display="flex" align-items="center">
+								<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+									Маша
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					width="25%"
+					lg-width="100%"
+					lg-display="flex"
+					md-flex-direction="column"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="20px 20px 20px 20px"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						margin="0px 0 25px 5px"
+						display="flex"
+						flex-direction="column"
+						lg-margin="0px 0 0 0px"
+						sm-padding="20px 15px 20px 15px"
+						md-margin="0 0 25px 0"
+						justify-content="space-between"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
+								Лучший пляж Каспийского моря! Широкая полоса, желтый песок, чистота, море прозрачное, голубое, мелко, приятно купаться. Хорошие переодевалки. Кафе прямо на пляже, немного дороговатое, но всегда есть места, романтично, особенно на столиках на песке, прямо перед морем. Рядом есть опция кинотеатра на открытом возлаже, транслируют новые фильмы.{"\n\n"}
+							</Text>
+						</Box>
+						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+							Ирина Варюхина
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="20px 20px 20px 20px"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						margin="0px 0 25px 5px"
+						display="flex"
+						flex-direction="column"
+						lg-margin="0px 0 0 0px"
+						sm-padding="20px 15px 20px 15px"
+						md-margin="0 0 25px 0"
+						justify-content="space-between"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
+								Пляж расположен в удобном черте города. Уровень воды оптимальный для семей с детьми, на пляже разные развлекательные сервисы, открытый ресторан с очень вкусной едой, на пляже также продаются кукуруза, сладкая вата, попкорн и другое...{"\n\n"}
+							</Text>
+						</Box>
+						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+							Амина
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						padding="20px 20px 20px 20px"
+						background="#f3f3f7"
+						border-radius="8px"
+						box-shadow="--m"
+						margin="0px 0 25px 5px"
+						display="flex"
+						flex-direction="column"
+						lg-margin="0px 0 0 0px"
+						sm-padding="20px 15px 20px 15px"
+						md-margin="0 0 25px 0"
+						justify-content="space-between"
+					>
+						<Box min-width="100px" min-height="100px">
+							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
+								Маленький, но очень уютный аквапарк. Лягушатник для малышей и два бассейна побольше для более взрослых, куда ведёт спуск с горок. Есть несколько особо экстремальных горок, на две из которых пускают только с ватрушками. Прикольная горка со спуском через воронку в отдельный водоём.{" "}
+								<br />
+								На каждой горке по спасателю.{"\n\n"}
+							</Text>
+						</Box>
+						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
+							Роман
 						</Text>
 					</Box>
 				</Box>
@@ -1387,6 +1721,7 @@ export default (() => {
 				loading="lazy"
 				alt="2 кита"
 				title="2 кита"
+				border-radius="80px"
 			/>
 			<Box
 				display="flex"
