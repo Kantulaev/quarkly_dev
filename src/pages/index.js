@@ -51,7 +51,13 @@ export default (() => {
 						</Link>
 					</Strong>
 				</Text>
-				<Image src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07:06:30.948Z" display="block" height="100px" />
+				<Image
+					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07:06:30.948Z"
+					display="block"
+					height="100px"
+					srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07%3A06%3A30.948Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07%3A06%3A30.948Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07%3A06%3A30.948Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07%3A06%3A30.948Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07%3A06%3A30.948Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07%3A06%3A30.948Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/logo_w.jpg?v=2023-05-16T07%3A06%3A30.948Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
 				<Box
 					flex="0 1 auto"
 					align-self="auto"
@@ -218,6 +224,8 @@ export default (() => {
 					loading="lazy"
 					alt="жк 2 кита избербаш"
 					title="жк 2 кита избербаш"
+					srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05%3A35%3A34.295Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05%3A35%3A34.295Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05%3A35%3A34.295Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05%3A35%3A34.295Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05%3A35%3A34.295Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05%3A35%3A34.295Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05%3A35%3A34.295Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 		</Section>
@@ -297,6 +305,8 @@ export default (() => {
 				loading="lazy"
 				alt="жк 2 кита избербаш"
 				title="жк 2 кита избербаш"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05%3A35%3A34.256Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05%3A35%3A34.256Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05%3A35%3A34.256Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05%3A35%3A34.256Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05%3A35%3A34.256Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05%3A35%3A34.256Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img948.webp?v=2023-05-17T05%3A35%3A34.256Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
@@ -412,6 +422,8 @@ export default (() => {
 						alt="жк 2 кита избербаш"
 						title="жк 2 кита избербаш"
 						loading="lazy"
+						srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05%3A35%3A34.244Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05%3A35%3A34.244Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05%3A35%3A34.244Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05%3A35%3A34.244Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05%3A35%3A34.244Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05%3A35%3A34.244Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/photo-2021-01-25-09-06-24-1.webp?v=2023-05-17T05%3A35%3A34.244Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 				<Box lg-width="40%" sm-width="100%">
@@ -504,6 +516,8 @@ export default (() => {
 						alt="жк 2 кита избербаш"
 						loading="lazy"
 						title="жк 2 кита избербаш"
+						srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05%3A35%3A34.249Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05%3A35%3A34.249Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05%3A35%3A34.249Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05%3A35%3A34.249Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05%3A35%3A34.249Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05%3A35%3A34.249Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5-3-1.webp?v=2023-05-17T05%3A35%3A34.249Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 				<Box lg-width="40%" sm-width="100%">
@@ -582,6 +596,8 @@ export default (() => {
 						alt="жк 2 кита избербаш"
 						title="жк 2 кита избербаш"
 						loading="lazy"
+						srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05%3A35%3A34.250Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05%3A35%3A34.250Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05%3A35%3A34.250Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05%3A35%3A34.250Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05%3A35%3A34.250Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05%3A35%3A34.250Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/izberbash-1.webp?v=2023-05-17T05%3A35%3A34.250Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 				<Box lg-width="40%" sm-width="100%">
@@ -698,6 +714,8 @@ export default (() => {
 				alt="жк 2 кита избербаш"
 				title="жк 2 кита избербаш"
 				loading="lazy"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05%3A35%3A34.254Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05%3A35%3A34.254Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05%3A35%3A34.254Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05%3A35%3A34.254Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05%3A35%3A34.254Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05%3A35%3A34.254Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/img973.webp?v=2023-05-17T05%3A35%3A34.254Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Section>
 		<Section padding="65px 0 65px 0" sm-padding="60px 0 60px 0" quarkly-title="Images-2">
@@ -741,6 +759,8 @@ export default (() => {
 						alt="аквапарк"
 						title="аквапарк"
 						border-radius="80px"
+						srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21%3A16%3A07.513Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21%3A16%3A07.513Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21%3A16%3A07.513Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21%3A16%3A07.513Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21%3A16%3A07.513Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21%3A16%3A07.513Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/okean_ocean_1_linija_pljazh_10-_1_-_1_.webp?v=2023-05-17T21%3A16%3A07.513Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 			</Box>
@@ -807,6 +827,8 @@ export default (() => {
 						alt="аквапарк"
 						title="аквапарк"
 						loading="lazy"
+						srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02%3A23%3A18.374Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02%3A23%3A18.374Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02%3A23%3A18.374Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02%3A23%3A18.374Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02%3A23%3A18.374Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02%3A23%3A18.374Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/b105638217-izbarbash-hotel-gostinitsa-okean.webp?v=2023-05-17T02%3A23%3A18.374Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 			</Box>
@@ -1151,7 +1173,7 @@ export default (() => {
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
-							Цена 40 тыс за кв.м.
+							Цена 45 тыс за кв.м.
 						</Text>
 					</Box>
 				</Box>
@@ -1174,7 +1196,7 @@ export default (() => {
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Остаток в течении 3-х лет.
 							<br />
-							Цена 45 тыс. за кв.м.
+							Цена 50 тыс. за кв.м.
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--lightD2" font="--lead" />
 					</Box>
@@ -1198,7 +1220,7 @@ export default (() => {
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Рассрочка на 3 года.
 							<br />
-							Цена 50 тыс за кв.м.
+							Цена 55 тыс за кв.м.
 						</Text>
 					</Box>
 				</Box>
@@ -1722,6 +1744,8 @@ export default (() => {
 				alt="2 кита"
 				title="2 кита"
 				border-radius="80px"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box
 				display="flex"

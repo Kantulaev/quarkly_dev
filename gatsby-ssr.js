@@ -1,8 +1,9 @@
-
 const React = require("react");
 const QAPI = require("./qapi").default;
 const { RawHtml } = require("@quarkly/components");
-export const onRenderBody = (
+ const insideHeadRawHtmls = [];
+const beforeBodyRawHtmls = [];
+ export const onRenderBody = (
     {
         setHeadComponents,
         setPostBodyComponents,
@@ -18,16 +19,17 @@ export const onRenderBody = (
         }
     `}</style>,
     ...components.headItems,
+    ...insideHeadRawHtmls,
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap" />,
   ]);
-
-  setPostBodyComponents([
-    ...components.bodyItems,
+   setPostBodyComponents([
     <script
         key="QAPI"
         dangerouslySetInnerHTML={{
             __html: `window.QAPI = ${JSON.stringify(QAPI || {})}`
         }}
     />,
+    ...components.bodyItems,
+    ...beforeBodyRawHtmls,
   ]);
 }
