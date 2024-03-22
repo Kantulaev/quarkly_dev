@@ -407,7 +407,7 @@ export default (() => {
 					color="--dark"
 					font="--headline2"
 					lg-text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="--headline3"
 					padding="0px 16px 0px 0px"
 					lg-margin="0px 0px 48px 0px"
 					sm-margin="0px 0px 24px 0px"
@@ -688,7 +688,7 @@ export default (() => {
 				padding="16px 16px 16px 0px"
 				lg-width="100%"
 				md-margin="0px 0px 20px 0px"
-				sm-margin="0px 0px 30px 0px"
+				sm-margin="0px 0px 0px 0px"
 				height="auto"
 				align-self="flex-start"
 			>
@@ -726,12 +726,19 @@ export default (() => {
 					display="flex"
 					align-items="flex-start"
 					margin="40px 0px 16px 32px"
+					sm-font="--headline4"
+					sm-text-align="center"
+					sm-margin="40px 0px 16px 0"
 				>
 					Центральный двор с возможностью
 					<br />
-					провести время на свежем воздухе.
+					провести время{" "}
 					<br />
-					Подземная парковка для вас и гостей.
+					на свежем воздухе.
+					<br />
+					Подземная парковка{" "}
+					<br />
+					для вас и гостей.
 					<br />
 					В новом жилом комплексе
 					<br />
@@ -1641,6 +1648,7 @@ export default (() => {
 				lg-align-self="auto"
 				lg-align-items="stretch"
 				lg-justify-content="center"
+				sm-width="100%"
 			>
 				<Box
 					width="100%"
@@ -1946,7 +1954,7 @@ export default (() => {
 			>
 				<Strong
 					sm-text-align="center"
-					sm-font="--lead"
+					sm-font="--headline4"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"

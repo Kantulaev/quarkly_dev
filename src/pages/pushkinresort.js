@@ -1368,6 +1368,8 @@ export default (() => {
 				lg-align-self="auto"
 				lg-align-items="stretch"
 				lg-justify-content="center"
+				sm-width="100%"
+				md-width="100%"
 			>
 				<Box
 					width="100%"
@@ -1445,7 +1447,7 @@ export default (() => {
 						transition="background-color 0.2s ease-in-out 0s"
 						hover-transition="background-color 0.2s ease-in-out 0s"
 						hover-background="--color-orange"
-						href="https://disk.yandex.ru/d/VpCIxbUVzwVjDA"
+						href="https://disk.yandex.ru/d/gYyeTh8Pk6Klwg"
 						target="_blank"
 					>
 						Посмотреть документы
@@ -1506,7 +1508,7 @@ export default (() => {
 				lg-width="100%"
 			/>
 			<Image
-				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22:51:10.370Z"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12:33:26.385Z"
 				display="inline-flex"
 				width="50%"
 				lg-width="100%"
@@ -1514,7 +1516,7 @@ export default (() => {
 				alt="2 кита"
 				title="2 кита"
 				border-radius="80px"
-				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=3200 3200w"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box
@@ -1563,7 +1565,7 @@ export default (() => {
 					width="500px"
 				>
 					<Link
-						href="https://yandex.ru/maps/-/CCUk70xXsC"
+						href="https://yandex.ru/maps/-/CDRMEAZw"
 						md-color="#ffffff"
 						md-hover-color="#0c36ea"
 						target="_blank"
@@ -1574,7 +1576,7 @@ export default (() => {
 						<br />
 						г. Избербаш
 						<br />
-						О. А. Межлумова 11/1
+						Район спортивной базы им Али Алиева
 					</Link>
 				</Text>
 				<Box min-width="100px" min-height="100px" display="flex">
@@ -1673,7 +1675,7 @@ export default (() => {
 			>
 				<Strong
 					sm-text-align="center"
-					sm-font="--lead"
+					sm-font="--headline4"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
