@@ -6,7 +6,8 @@ export default {
 			"name": "root",
 			"children": [
 				"64624544820441001fb0b5c6",
-				"64624544820441001fb0b5c2"
+				"64624544820441001fb0b5c2",
+				"65fd2210fdcae00021e05ffa"
 			]
 		},
 		"64624544820441001fb0b5c2": {
@@ -18,6 +19,11 @@ export default {
 			"id": "64624544820441001fb0b5c6",
 			"name": "404",
 			"pageUrl": "404"
+		},
+		"65fd2210fdcae00021e05ffa": {
+			"pageUrl": "index1",
+			"id": "65fd2210fdcae00021e05ffa",
+			"name": "Pushikin Resort"
 		}
 	},
 	"mode": "production",
