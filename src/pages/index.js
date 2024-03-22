@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Text, Image, Box, Section, Icon, LinkBox, Span, Button, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, LinkBox, Box, Strong, Image, Section, Span, Button, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -26,6 +26,47 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310.png?v=2023-05-16T06:42:15.248Z"} />
 			<meta name={"msapplication-TileColor"} content={"#0429ff"} />
 		</Helmet>
+		<Box
+			width="100%"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+			position="static"
+			padding="13px 0px 13px 0px"
+			top="0px"
+			quarkly-title="Banner-2"
+			background="linear-gradient(90deg, #ffd7c7,#ffd3ff,#ffffff);"
+			md-flex-direction="column"
+			md-display="flex"
+			md-grid-gap="8px"
+		>
+			<Text margin="0px 0px 0px 0px" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" color="--dark" md-text-align="center">
+				Новый ЖК "Пушкин Resort"
+			</Text>
+			<Icon category="bs" icon={BsDot} size="16px" md-display="none" />
+			<Text margin="0px 0px 0px 0px" font="--base" color="--dark" md-text-align="center">
+				Открытый бассейн и частный пляж
+			</Text>
+			<LinkBox
+				color="--light"
+				margin="0px 0px 0px 16px"
+				text-decoration-line="initial"
+				text-transform="uppercase"
+				background="--color-dark"
+				font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+				padding="6px 16px 7px 16px"
+				border-radius="24px"
+				letter-spacing="0.3px"
+				flex-direction="row"
+				target="_blank"
+				href="/pushkinresort"
+			>
+				<Text margin="0px 0px 1px 0px" text-transform="initial">
+					Посмотреть
+				</Text>
+				<Icon category="ti" icon={TiArrowRight} size="24px" margin="0px 0px 0px 0px" />
+			</LinkBox>
+		</Box>
 		<Section quarkly-title="Header" position="static">
 			<Box
 				display="flex"
@@ -80,47 +121,6 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Box
-			width="100%"
-			display="flex"
-			align-items="center"
-			justify-content="center"
-			position="static"
-			padding="13px 0px 13px 0px"
-			top="0px"
-			quarkly-title="Banner-2"
-			background="linear-gradient(90deg, #ffd7c7,#ffd3ff,#ffffff);"
-			md-flex-direction="column"
-			md-display="flex"
-			md-grid-gap="8px"
-		>
-			<Text margin="0px 0px 0px 0px" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" color="--dark" md-text-align="center">
-				Новый ЖК "Пушкин Resort"
-			</Text>
-			<Icon category="bs" icon={BsDot} size="16px" md-display="none" />
-			<Text margin="0px 0px 0px 0px" font="--base" color="--dark" md-text-align="center">
-				Открытый бассейн и частный пляж
-			</Text>
-			<LinkBox
-				color="--light"
-				margin="0px 0px 0px 16px"
-				text-decoration-line="initial"
-				text-transform="uppercase"
-				background="--color-dark"
-				font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-				padding="6px 16px 7px 16px"
-				border-radius="24px"
-				letter-spacing="0.3px"
-				flex-direction="row"
-				target="_blank"
-				href="/pushkinresort"
-			>
-				<Text margin="0px 0px 1px 0px" text-transform="initial">
-					Посмотреть
-				</Text>
-				<Icon category="ti" icon={TiArrowRight} size="24px" margin="0px 0px 0px 0px" />
-			</LinkBox>
-		</Box>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
