@@ -15,7 +15,7 @@ export default (() => {
 			<meta name={"description"} content={"Элитный ЖК на берегу моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
 			<meta property={"og:title"} content={"Элитный ЖК  \"2 КИТА\" г. Избербаш"} />
 			<meta property={"og:description"} content={"Элитный ЖК на берегу моря. Рядом горячие источники, аквапарк, новый детский сад. Рассрочка на 3 года."} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/img957.webp?v=2023-05-17T05:35:34.295Z"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06:25:47.898Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2023-05-16T06:41:53.296Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
@@ -23,6 +23,7 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310.png?v=2023-05-16T06:42:15.248Z"} />
 			<meta name={"msapplication-TileColor"} content={"#0429ff"} />
+			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Section background="--color-darkL1" padding="80px 0 80px 0" id="contacts" quarkly-title="Contacts">
 			<Override
