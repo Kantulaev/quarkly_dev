@@ -226,7 +226,7 @@ export default (() => {
 						top="871px"
 						left="324px"
 						z-index="2"
-						href="https://wa.me/79882200199"
+						href="https://wa.me/79286775522"
 						bottom="2750.999984741211px"
 						right="1402.310015258789px"
 						overflow-x="visible"
@@ -1608,7 +1608,7 @@ export default (() => {
 						top="871px"
 						left="324px"
 						z-index="2"
-						href="https://wa.me/79882200199"
+						href="https://wa.me/79286775522"
 						bottom="2750.999984741211px"
 						right="1402.310015258789px"
 						overflow-x="visible"
@@ -1661,7 +1661,7 @@ export default (() => {
 				<LinkBox margin="0px 32px 0px 0px" href="https://t.me/+79882200199" target="_blank">
 					<Icon category="fa" icon={FaTelegram} size="64px" color="--darkL1" />
 				</LinkBox>
-				<LinkBox href="https://wa.me/79882200199" target="_blank">
+				<LinkBox href="https://wa.me/79286775522" target="_blank">
 					<Icon category="fa" icon={FaWhatsappSquare} size="64px" color="--darkL1" />
 				</LinkBox>
 			</Box>
