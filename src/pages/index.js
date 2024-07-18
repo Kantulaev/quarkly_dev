@@ -995,7 +995,7 @@ export default (() => {
 							font="--headline4"
 							text-align="center"
 						>
-							Подземная парковка и резервуар для воды
+							Частная парковка и резервуар для воды
 						</Text>
 						<Text
 							margin="0px 0px 0px 0px"
