@@ -4,8 +4,8 @@ import { Theme, Link, Text, Icon, LinkBox, Box, Strong, Section, Image, Span, Bu
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
-import * as Components from "components";
 import { TiArrowRight } from "react-icons/ti";
+import { BsDot } from "react-icons/bs";
 import { FaTelegram, FaWhatsapp, FaWhatsappSquare } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
@@ -63,6 +63,47 @@ export default (() => {
 				<Icon category="ti" icon={TiArrowRight} size="24px" margin="0px 0px 0px 0px" />
 			</LinkBox>
 		</Box>
+		<Box
+			width="100%"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+			position="static"
+			padding="13px 0px 13px 0px"
+			top="0px"
+			quarkly-title="Banner-2"
+			background="#ffc0f0"
+			md-flex-direction="column"
+			md-display="flex"
+			md-grid-gap="8px"
+		>
+			<Text margin="0px 0px 0px 0px" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" color="--dark" md-text-align="center">
+				Новый ЖК "Пушкин Resort"
+			</Text>
+			<Icon category="bs" icon={BsDot} size="16px" md-display="none" />
+			<Text margin="0px 0px 0px 0px" font="--base" color="--dark" md-text-align="center">
+				Открытый бассейн и частный пляж
+			</Text>
+			<LinkBox
+				color="--light"
+				margin="0px 0px 0px 16px"
+				text-decoration-line="initial"
+				text-transform="uppercase"
+				background="--color-dark"
+				font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+				padding="6px 16px 7px 16px"
+				border-radius="24px"
+				letter-spacing="0.3px"
+				flex-direction="row"
+				target="_blank"
+				href="/pushkinresort"
+			>
+				<Text margin="0px 0px 1px 0px" text-transform="initial">
+					Посмотреть
+				</Text>
+				<Icon category="ti" icon={TiArrowRight} size="24px" margin="0px 0px 0px 0px" />
+			</LinkBox>
+		</Box>
 		<Section quarkly-title="Header" position="static" md-display="flex" md-flex-direction="row">
 			<Box
 				display="flex"
@@ -78,7 +119,7 @@ export default (() => {
 					md-margin="0px 0 20px 0"
 					text-align="left"
 					font="--headline4"
-					sm-margin="0px 0 0 0"
+					sm-margin="0px 0 32px 0"
 					lg-font="--headline4"
 				>
 					<Strong
@@ -170,7 +211,7 @@ export default (() => {
 					margin="40px 0px 16px 32px"
 					sm-margin="40px 0px 16px 0"
 				>
-					Элегантный жилой комплекс из 7 зданий, высотой от 6 до 11 этажей, вмещает в себя 416 апартаментов. Здесь современный дизайн сочетается с функциональностью, создавая идеальное пространство для вашего комфорта и уюта. Добро пожаловать в мир роскоши и гармонии!{"\n\n\n\n"}
+					Добро пожаловать в жилой комплекс на берегу моря в Избербаше, где безопасность и комфорт идут рука об руку с благополучием для вашей семьи. Здесь вы найдете идеальное место для жизни: спокойствие, уют и радость каждого дня, чтобы вы могли наслаждаться морским пейзажем и душевным теплом домашнего уюта.
 				</Text>
 			</Box>
 			<Image
@@ -211,17 +252,6 @@ export default (() => {
 				sm-margin="0px 0px 30px 0px"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
-					color="--dark"
-					font="--headline1"
-					lg-text-align="center"
-					sm-font="--headline1"
-					md-text-align="left"
-					sm-align-self="flex-start"
-				>
-					Оазис на берегу моря!{"\n\n"}
-				</Text>
-				<Text
 					margin="0px 0px 40px 0px"
 					color="--darkL1"
 					font="--headline3"
@@ -229,37 +259,33 @@ export default (() => {
 					md-text-align="left"
 					md-align-self="flex-start"
 				>
-					Элитный ЖК{" "}
-					<br />
-					с открытым бассейном{" "}
-					<br />
-					и собственным пляжем
+					Жилой комплекс возведен с использованием монолитных технологий, что гарантирует прочность и надежность каждого дома. Монолитные конструкции обеспечивают высокую устойчивость к внешним воздействиям, таким как природные катаклизмы, обеспечивая вашу безопасность на многие десятилетия.{" "}
 				</Text>
 				<Box display="flex" lg-width="100%" lg-justify-content="space-between" sm-margin="0px 0px 20px 0px">
 					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
 						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							10мин
+							350м
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
-							До центра{" "}
-							<br />
-							на авто
+							До пляжа
 						</Text>
 					</Box>
 					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
 						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							30км
+							4га
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
-							До аэропорта
+							Территория{" "}
+							<br />
+							комплекса{" "}
 						</Text>
 					</Box>
 					<Box display="flex" flex-direction="column">
 						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							8км
+							34 дома
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
-							До ЖД Вокзала
+							По 8 этажей
 						</Text>
 					</Box>
 				</Box>
@@ -346,7 +372,7 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section background="#ffffff" padding="90px 0 110px 0" quarkly-title="Team-12">
+		<Section background="#ffffff" padding="90px 0 110px 0" quarkly-title="Team-12" display="flex">
 			<Text margin="0px 0px 0px 0px" color="--dark" font="600 48px --fontFamily-sans">
 				Уникальные черты комплекса
 			</Text>
@@ -403,7 +429,7 @@ export default (() => {
 						margin="25px 0px 0px 0px"
 					>
 						<Text color="--dark" font="--headline4" lg-margin="0 0px 0px 0px" margin="0 0px 0 0px">
-							Собственная инфраструктура
+							Безопасные детские площадки
 						</Text>
 					</Box>
 				</Box>
@@ -445,7 +471,9 @@ export default (() => {
 						margin="25px 0px 0px 0px"
 					>
 						<Text color="--dark" font="--headline4" lg-margin="0 0px 0px 0px" margin="0 0px 0 0px">
-							Общественный открытый бассейн
+							Места для{" "}
+							<br />
+							семейного отдыха
 						</Text>
 					</Box>
 				</Box>
@@ -488,7 +516,7 @@ export default (() => {
 						margin="25px 0px 0px 0px"
 					>
 						<Text color="--dark" font="--headline4" lg-margin="0 0px 0px 0px" margin="0 0px 0 0px">
-							Безопасное пространство
+							Просторные парковки
 						</Text>
 					</Box>
 				</Box>
@@ -522,9 +550,7 @@ export default (() => {
 					padding="0px 16px 0px 0px"
 					text-align="left"
 				>
-					Роскошь{" "}
-					<br />
-					и комфорт
+					Смотрим в будущее
 				</Text>
 			</Box>
 			<Box
@@ -552,7 +578,11 @@ export default (() => {
 					padding="0px 16px 0px 0px"
 					text-align="right"
 				>
-					Оптимальное сочетание роскоши и удобств делает наш жилой комплекс идеальным местом для жизни. Погрузитесь в атмосферу уюта и беззаботности, расслабьтесь под солнцем и позвольте себе наслаждаться каждым моментом жизни у нас.{"\n\n"}
+					Наш ЖК — надежная инвестиция.{" "}
+					<br />
+					Монолитные дома у моря сохраняют свою ценность и обеспечивают{" "}
+					<br />
+					рост капитала в будущем.
 				</Text>
 			</Box>
 			<Box
@@ -647,7 +677,7 @@ export default (() => {
 							font="--headline4"
 							text-align="center"
 						>
-							Откройте для себя натуральную свежесть и вкус местных продуктов прямо возле вашего дома!{"\n\n"}
+							Откройте для себя натуральную свежесть и вкус местных продуктов прямо возле вашего дома!
 						</Text>
 						<Text
 							margin="0px 0px 0px 0px"
@@ -698,7 +728,7 @@ export default (() => {
 							font="--headline4"
 							text-align="center"
 						>
-							Добро пожаловать в мир, где каждый день наполнен красотой и волшебством морского бриза.{"\n\n"}
+							Добро пожаловать в мир, где каждый день наполнен красотой и волшебством морского бриза.
 						</Text>
 						<Text
 							margin="0px 0px 0px 0px"
@@ -748,7 +778,7 @@ export default (() => {
 							font="--headline4"
 							text-align="center"
 						>
-							Это ваш шанс испытать истинное блаженство жизни на берегу моря!{"\n\n"}
+							Это ваш шанс испытать истинное блаженство жизни на берегу моря!
 						</Text>
 						<Text
 							margin="0px 0px 0px 0px"
@@ -764,7 +794,6 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.QuarklycommunityKitVideo src="https://www.youtube.com/watch?v=CJcS_lbwYzs&list=PLIPiKkS-FpK85Ldm2HSl-0Xwj2hN7T59g&index=20" />
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-dark">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
 			<Box
@@ -845,7 +874,7 @@ export default (() => {
 							<br />
 							В Избербаше преобладает сухой субтропический климат.
 							<br />
-							{"\n"}Благодаря морю и горной защите
+							Благодаря морю и горной защите
 							<br />
 							зимы непродолжительные и мягкие, а{"  "}
 							<br />
@@ -1012,7 +1041,7 @@ export default (() => {
 					>
 						<Box min-width="100px" min-height="100px">
 							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Чистый пляж, прозрачная вода! Вдоль берега много разных отелей цены доступные если чего-то не хватает можно заказать вам сделают доставку. Вода на столько чистая аж видно рыбы даже ночью у берега. Можно с детьми, так как глубина от берега метров 20 идёшь а вода по пояс. Рекомендую всем!{"\n\n"}
+								Чистый пляж, прозрачная вода! Вдоль берега много разных отелей цены доступные если чего-то не хватает можно заказать вам сделают доставку. Вода на столько чистая аж видно рыбы даже ночью у берега. Можно с детьми, так как глубина от берега метров 20 идёшь а вода по пояс. Рекомендую всем!
 							</Text>
 						</Box>
 						<Box min-width="10px" min-height="10px">
@@ -1037,7 +1066,7 @@ export default (() => {
 					>
 						<Box min-width="100px" min-height="100px">
 							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Рынок просто супер! Я заезжал специально купить овощи, в частности помидоры. Купил 2 ящика, примерно 23 кг, 70 руб за кг. В Москве 350 руб за кг дагестанских помидор. Взял огурчики, свежей клубнички немножко, аджика, капусту. В общем всего понемножку))) Рекомендую{"\n\n"}
+								Рынок просто супер! Я заезжал специально купить овощи, в частности помидоры. Купил 2 ящика, примерно 23 кг, 70 руб за кг. В Москве 350 руб за кг дагестанских помидор. Взял огурчики, свежей клубнички немножко, аджика, капусту. В общем всего понемножку))) Рекомендую
 							</Text>
 						</Box>
 						<Box min-width="10px" min-height="10px">
@@ -1062,7 +1091,7 @@ export default (() => {
 					>
 						<Box min-width="100px" min-height="100px">
 							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Отличный аквапарк. Хоть и маленький, но в нем есть всё для хорошего отдыха. Достаточное количество лежаков, абсолютно доступная цена, большое разнообразие еды на фудкорте, при чем не по цене почки, как обычно бывает в таких заведениях - не может не радовать!{"\n\n"}
+								Отличный аквапарк. Хоть и маленький, но в нем есть всё для хорошего отдыха. Достаточное количество лежаков, абсолютно доступная цена, большое разнообразие еды на фудкорте, при чем не по цене почки, как обычно бывает в таких заведениях - не может не радовать!
 							</Text>
 						</Box>
 						<Box min-width="10px" min-height="10px">
@@ -1097,7 +1126,7 @@ export default (() => {
 								md-margin="0px 0px 25px 0px"
 							>
 								Избербаш. Пляжное место Дагестана. Здесь я познакомилась с Каспием.
-Огромным, могучим и чертовски манящим. Городской пляж на то и городской, чтобы быть во всеобщей городской доступности. Особого мусора я не заметила, берег относительно чистый, море любимое прозрачное и тёплое. Огромным преимуществом этого места- плавный заход в воду без резких перепадов. В некоторых местах на столько плавный, что приходилось идти по воде пешком более 100 метров, прежде чем появлялась возможность нырнуть под воду, но это большой плюс для семей с детьми. Такой детский пляж. А какие там рифы...{" \n\n"}
+Огромным, могучим и чертовски манящим. Городской пляж на то и городской, чтобы быть во всеобщей городской доступности. Особого мусора я не заметила, берег относительно чистый, море любимое прозрачное и тёплое. Огромным преимуществом этого места- плавный заход в воду без резких перепадов. В некоторых местах на столько плавный, что приходилось идти по воде пешком более 100 метров, прежде чем появлялась возможность нырнуть под воду, но это большой плюс для семей с детьми. Такой детский пляж. А какие там рифы...{" "}
 							</Text>
 						</Box>
 						<Box
@@ -1143,7 +1172,7 @@ export default (() => {
 								md-padding="0px 20px 0px 20px"
 								md-margin="0px 0px 25px 0px"
 							>
-								Превосходный рынок! Разные овощи, фрукты, зелень, ягоды. Всё по очень приятным ценам. Можно купить разнообразные свежие местные сладости. Есть рыба свежая, вяленая и копчёная. Домашняя молочка-очень вкусная и натуральная. Свежее мясо. Много орехов, чаи, сухофрукты, специи. Есть и безалкогольные напитки. Безопасно, но соблюдайте дресс код, уважайте традиции. Однозначно рекомендую.{"\n\n"}
+								Превосходный рынок! Разные овощи, фрукты, зелень, ягоды. Всё по очень приятным ценам. Можно купить разнообразные свежие местные сладости. Есть рыба свежая, вяленая и копчёная. Домашняя молочка-очень вкусная и натуральная. Свежее мясо. Много орехов, чаи, сухофрукты, специи. Есть и безалкогольные напитки. Безопасно, но соблюдайте дресс код, уважайте традиции. Однозначно рекомендую.
 							</Text>
 						</Box>
 						<Box
@@ -1190,7 +1219,7 @@ export default (() => {
 								md-margin="0px 0px 25px 0px"
 							>
 								(О горячих источниках) Я в восторге!! Очень понравилось! Вода горячая, не пахнет сероводородом! Можно даже душ не принимать после. Вода бурлит)) Отдельные входы и зоны для мужчин и женщин. Есть место для переодевания.
-Обустроено отлично, бесплатно.{"\n\n"}
+Обустроено отлично, бесплатно.
 							</Text>
 						</Box>
 						<Box
@@ -1239,7 +1268,7 @@ export default (() => {
 					>
 						<Box min-width="100px" min-height="100px">
 							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Лучший пляж Каспийского моря! Широкая полоса, желтый песок, чистота, море прозрачное, голубое, мелко, приятно купаться. Хорошие переодевалки. Кафе прямо на пляже, немного дороговатое, но всегда есть места, романтично, особенно на столиках на песке, прямо перед морем. Рядом есть опция кинотеатра на открытом возлаже, транслируют новые фильмы.{"\n\n"}
+								Лучший пляж Каспийского моря! Широкая полоса, желтый песок, чистота, море прозрачное, голубое, мелко, приятно купаться. Хорошие переодевалки. Кафе прямо на пляже, немного дороговатое, но всегда есть места, романтично, особенно на столиках на песке, прямо перед морем. Рядом есть опция кинотеатра на открытом возлаже, транслируют новые фильмы.
 							</Text>
 						</Box>
 						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
@@ -1263,7 +1292,7 @@ export default (() => {
 					>
 						<Box min-width="100px" min-height="100px">
 							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Пляж расположен в удобном черте города. Уровень воды оптимальный для семей с детьми, на пляже разные развлекательные сервисы, открытый ресторан с очень вкусной едой, на пляже также продаются кукуруза, сладкая вата, попкорн и другое...{"\n\n"}
+								Пляж расположен в удобном черте города. Уровень воды оптимальный для семей с детьми, на пляже разные развлекательные сервисы, открытый ресторан с очень вкусной едой, на пляже также продаются кукуруза, сладкая вата, попкорн и другое...
 							</Text>
 						</Box>
 						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
@@ -1289,7 +1318,7 @@ export default (() => {
 							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
 								Маленький, но очень уютный аквапарк. Лягушатник для малышей и два бассейна побольше для более взрослых, куда ведёт спуск с горок. Есть несколько особо экстремальных горок, на две из которых пускают только с ватрушками. Прикольная горка со спуском через воронку в отдельный водоём.{" "}
 								<br />
-								На каждой горке по спасателю.{"\n\n"}
+								На каждой горке по спасателю.
 							</Text>
 						</Box>
 						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
@@ -1662,8 +1691,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					ЖК "Жемчужина Избербаша" -  Оазис на берегу моря!
-Рассрочка на 3 года.
+					ЖК "Жемчужина Избербаша". Рассрочка на 3 года.
 				</Strong>
 			</Text>
 		</Section>
