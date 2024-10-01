@@ -4,6 +4,7 @@ import { Theme, Link, Text, Icon, LinkBox, Box, Strong, Section, Image, Span, Bu
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 import { TiArrowRight } from "react-icons/ti";
 import { FaTelegram, FaWhatsapp, FaWhatsappSquare } from "react-icons/fa";
 export default (() => {
@@ -763,6 +764,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Components.QuarklycommunityKitVideo src="https://www.youtube.com/watch?v=CJcS_lbwYzs&list=PLIPiKkS-FpK85Ldm2HSl-0Xwj2hN7T59g&index=20" />
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-dark">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
 			<Box

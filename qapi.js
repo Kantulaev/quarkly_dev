@@ -51,7 +51,7 @@ export default {
 				"og:image": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/img824.jpg?v=2024-10-01T11:19:29.880Z"
 			},
 			"id": "66fbc4b5e778710018d3c4b7",
-			"name": "Zhemchuzhina Izberbasha"
+			"name": "Zhemchuzhina"
 		}
 	},
 	"mode": "production",
