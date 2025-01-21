@@ -1228,7 +1228,7 @@ export default (() => {
 					Условия рассрочки
 				</Text>
 				<Text margin="0px 0px 0px 0px" color="--lightD2" font="--headline3">
-					Три варианта оплаты.
+					Четыре варианта оплаты.
 					<br />
 					На ваш выбор.
 				</Text>
@@ -1276,7 +1276,7 @@ export default (() => {
 							sm-width="44px"
 						/>
 						<Text margin="0px 0px 0px 0px" color="#ffffff" font="--headline2" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							30% - предоплата{" "}
+							50% - предоплата{" "}
 						</Text>
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
@@ -1284,6 +1284,30 @@ export default (() => {
 							Остаток в течении 3-х лет.
 							<br />
 							Цена 60 тыс. за кв.м.
+						</Text>
+						<Text margin="0px 0px 0px 0px" color="--lightD2" font="--lead" />
+					</Box>
+				</Box>
+				<Box display="flex" flex-direction="column" margin="0px 0px 48px 0px">
+					<Box display="flex" align-items="center" margin="0px 0px 16px 0px">
+						<Hr
+							width="54px"
+							margin="0px 50px 0px 0px"
+							border-color="--color-lightD2"
+							border-width="2px 0 0 0 "
+							opacity="0.2"
+							sm-margin="0px 20px 0px 0px"
+							sm-width="44px"
+						/>
+						<Text margin="0px 0px 0px 0px" color="#ffffff" font="--headline2" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+							30% - предоплата{" "}
+						</Text>
+					</Box>
+					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
+						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
+							Остаток в течении 3-х лет.
+							<br />
+							Цена 65 тыс. за кв.м.
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--lightD2" font="--lead" />
 					</Box>
@@ -1305,9 +1329,9 @@ export default (() => {
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
-							Рассрочка на 3 года.
+							Полная рассрочка на 3 года.
 							<br />
-							Цена 65 тыс за кв.м.
+							Цена 70 тыс за кв.м.
 						</Text>
 					</Box>
 				</Box>
