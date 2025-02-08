@@ -1260,7 +1260,7 @@ export default (() => {
 					</Box>
 					<Box padding="0px 0px 0px 104px" sm-padding="0px 0px 0px 64px">
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
-							Цена 60 тыс за кв.м.
+							Цена 70 тыс за кв.м.
 						</Text>
 					</Box>
 				</Box>
@@ -1283,7 +1283,7 @@ export default (() => {
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Остаток в течении 3-х лет.
 							<br />
-							Цена 65 тыс. за кв.м.
+							Цена 75 тыс. за кв.м.
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--lightD2" font="--lead" />
 					</Box>
@@ -1307,7 +1307,7 @@ export default (() => {
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Остаток в течении 3-х лет.
 							<br />
-							Цена 70 тыс. за кв.м.
+							Цена 80 тыс. за кв.м.
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--lightD2" font="--lead" />
 					</Box>
@@ -1331,7 +1331,7 @@ export default (() => {
 						<Text margin="0px 0px 16px 0px" color="#ffffff" font="--lead" sm-font="--headline4">
 							Полная рассрочка на 3 года.
 							<br />
-							Цена 75 тыс за кв.м.
+							Цена 85 тыс за кв.м.
 						</Text>
 					</Box>
 				</Box>
