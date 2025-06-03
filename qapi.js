@@ -25,17 +25,18 @@ export default {
 			}
 		},
 		"65fd2210fdcae00021e05ffa": {
-			"pageUrl": "pushkinresort",
+			"pageUrl": "moskovskiy",
 			"id": "65fd2210fdcae00021e05ffa",
-			"name": "Pushikin Resort",
+			"name": "Moskovskiy",
 			"seo": {
-				"title": "Оазис на берегу моря! Новый ЖК \"Пушкин Resort\". ",
-				"description": "Элитный ЖК на берегу моря. Открытый бассейн. Собственный пляж. Рассрочка на 3 года. Перспективный район!",
-				"og:description": "Элитный ЖК на берегу моря. Открытый бассейн. Собственный пляж. Рассрочка на 3 года. Перспективный район!",
+				"title": "ЖК «Московский» - Современный жилой комплекс комфорт класса ",
+				"description": "ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139.",
+				"og:description": "ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139.",
 				"og:title": "Оазис на берегу моря! Новый ЖК \"Пушкин Resort\". ",
-				"favicon_32px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06:52:19.554Z",
-				"favicon_apple_152px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-touch-icon.png?v=2024-03-22T08:40:48.411Z",
-				"favicon_win10_270px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/android-chrome-512x512.png?v=2024-03-22T08:41:38.675Z"
+				"favicon_32px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2025-06-03T09:53:03.204Z",
+				"favicon_apple_152px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2025-06-03T09:53:29.370Z",
+				"favicon_win10_270px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310.png?v=2025-06-03T09:53:40.471Z",
+				"background_win10": "#ff0408"
 			}
 		},
 		"66fbc4b5e778710018d3c4b7": {

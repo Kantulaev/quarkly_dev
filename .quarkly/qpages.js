@@ -1,6 +1,6 @@
 module.exports = [
 	"/index/",
-	"/pushkinresort/",
+	"/moskovskiy/",
 	"/zhemchuzhina/",
 	"/404/",
 	"/",
