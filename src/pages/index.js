@@ -61,6 +61,7 @@ export default (() => {
 				flex-direction="row"
 				target="_blank"
 				href="/pushkinresort"
+				sm-href="/moskovskiy"
 			>
 				<Text margin="0px 0px 1px 0px" text-transform="initial">
 					Посмотреть
