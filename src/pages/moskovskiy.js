@@ -840,7 +840,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" background="#1e1e1e">
+		<Section padding="80px 0 80px 0" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				width="25%"
@@ -909,68 +909,6 @@ export default (() => {
 				<Text margin="0px 0px 0px 0px" font="--headline4" color="--greyD2" text-align="center">
 					9,4 км, 19 мин{" \n\n"}
 				</Text>
-			</Box>
-		</Section>
-		<Section padding="60px 0" sm-padding="40px 0" color="--dark">
-			<Text as="h1" font="--headline1" margin="0 0 24px 0">
-				Ответы на вопросы
-			</Text>
-			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
-				<Box padding="16px 16px 16px 16px" width="33.333%" md-width="100%">
-					<Box display="flex" flex-direction="column">
-						<Text as="h3" font="--headline3" margin="12px 0">
-							Кто будет тут проживать?
-						</Text>
-						<Text as="p" font="--lead" margin="12px 0" color="--greyD2">
-							Квартиры уже покупают люди со всех регионов России.
-							<br />
-							Основными на данный момент являются
-							<br />
-							{" "}Москва, Санкт-Петербург,
-							<br />
-							Республика Татарстан,
-							<br />
-							Республика Башкортостан.
-						</Text>
-					</Box>
-				</Box>
-				<Box width="33.333%" padding="16px 16px 16px 16px" md-width="100%">
-					<Box display="flex" flex-direction="column">
-						<Text as="h3" font="--headline3" margin="12px 0 -12px 0">
-							Какой тут
-							<br />
-							климат?
-						</Text>
-						<Text
-							as="p"
-							font="--lead"
-							color="--greyD2"
-							margin="12px 0px 12px 0px"
-							flex="0 1 auto"
-							padding="0 0px 0px 0px"
-							display="block"
-						>
-							<br />
-							В Избербаше преобладает сухой субтропический климат.
-							<br />
-							Благодаря морю и горной защите
-							<br />
-							зимы непродолжительные и мягкие, а{"  "}
-							<br />
-							лето и осень очень теплые и длительные.{" "}
-						</Text>
-					</Box>
-				</Box>
-				<Box width="33.333%" padding="16px 16px 16px 16px" md-width="100%">
-					<Box display="flex" flex-direction="column">
-						<Text as="h3" font="--headline3" margin="12px 0">
-							Будет ли регион развиваться?
-						</Text>
-						<Text as="p" font="--lead" margin="12px 0" color="--greyD2">
-							Новый морской курорт, поддержанный Президентом РФ, будет расположен в районе Избербаша и Каякента и будет являться приоритетным для развития в регионе. Планируется создать всю необходимую пляжную инфраструктуру: отели, яхт-клубы и многое другое.
-						</Text>
-					</Box>
-				</Box>
 			</Box>
 		</Section>
 		<Section
