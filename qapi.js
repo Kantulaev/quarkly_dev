@@ -29,14 +29,15 @@ export default {
 			"id": "65fd2210fdcae00021e05ffa",
 			"name": "Moskovskiy",
 			"seo": {
-				"title": "ЖК «Московский» - Современный жилой комплекс комфорт класса ",
+				"title": "ЖК \"Московский\" -  Идеальная Жизнь Начинается Здесь! ",
 				"description": "ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139.",
 				"og:description": "ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139.",
-				"og:title": "Оазис на берегу моря! Новый ЖК \"Пушкин Resort\". ",
+				"og:title": "ЖК \"Московский\" -  Идеальная Жизнь Начинается Здесь! ",
 				"favicon_32px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2025-06-03T09:53:03.204Z",
 				"favicon_apple_152px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2025-06-03T09:53:29.370Z",
 				"favicon_win10_270px": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310.png?v=2025-06-03T09:53:40.471Z",
-				"background_win10": "#ff0408"
+				"background_win10": "#ff0408",
+				"og:image": "https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04:56:37.865Z"
 			}
 		},
 		"66fbc4b5e778710018d3c4b7": {

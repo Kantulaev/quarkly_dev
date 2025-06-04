@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, LinkBox, Box, Strong, Image, Section, Span, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, LinkBox, Box, Strong, Image, Section, Span, Button, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 import { TiArrowRight } from "react-icons/ti";
 import { FaTelegram, FaWhatsapp, FaWhatsappSquare } from "react-icons/fa";
 export default (() => {
@@ -11,12 +12,12 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"moskovskiy"} />
 		<Helmet>
 			<title>
-				ЖК «Московский» - Современный жилой комплекс комфорт класса 
+				ЖК "Московский" -  Идеальная Жизнь Начинается Здесь! 
 			</title>
 			<meta name={"description"} content={"ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139."} />
-			<meta property={"og:title"} content={"Оазис на берегу моря! Новый ЖК \"Пушкин Resort\". "} />
+			<meta property={"og:title"} content={"ЖК \"Московский\" -  Идеальная Жизнь Начинается Здесь! "} />
 			<meta property={"og:description"} content={"ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139."} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06:25:47.898Z"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04:56:37.865Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2025-06-03T09:53:03.204Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2025-06-03T09:53:29.370Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2025-06-03T09:53:29.370Z"} />
@@ -130,18 +131,18 @@ export default (() => {
 						lg-font="--headline3"
 					>
 						<Link href="/" color="#000000" border-color="#ffffff" link-text-decoration-line="initial">
-							Пушкин Resort
+							ЖК Московский
 						</Link>
 					</Strong>
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06:52:19.554Z"
+					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04:44:43.061Z"
 					display="block"
 					height="80px"
 					sm-margin="16px 0px 16px 0px"
 					lg-display="none"
 					sm-display="flex"
-					srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06%3A52%3A19.554Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06%3A52%3A19.554Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06%3A52%3A19.554Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06%3A52%3A19.554Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06%3A52%3A19.554Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06%3A52%3A19.554Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/Pushkin%20Resort%20black.webp?v=2024-03-22T06%3A52%3A19.554Z&quality=85&w=3200 3200w"
+					srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04%3A44%3A43.061Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04%3A44%3A43.061Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04%3A44%3A43.061Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04%3A44%3A43.061Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04%3A44%3A43.061Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04%3A44%3A43.061Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/ms-icon-310x310-removebg-preview.png?v=2025-06-04T04%3A44%3A43.061Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 				<Box
@@ -165,7 +166,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="#1e1e1e">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -190,7 +191,7 @@ export default (() => {
 					md-text-align="left"
 					sm-align-self="flex-start"
 				>
-					Оазис на берегу моря!
+					Идеальная Жизнь Начинается Здесь!{"\n\n"}
 				</Text>
 				<Text
 					margin="0px 0px 40px 0px"
@@ -200,40 +201,8 @@ export default (() => {
 					md-text-align="left"
 					md-align-self="flex-start"
 				>
-					Элитный ЖК{" "}
-					<br />
-					с открытым бассейном{" "}
-					<br />
-					и собственным пляжем
+					Cовременный жилой комплекс комфорт-класса{"\n\n"}
 				</Text>
-				<Box display="flex" lg-width="100%" lg-justify-content="space-between" sm-margin="0px 0px 20px 0px">
-					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
-						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							10мин
-						</Text>
-						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
-							До центра{" "}
-							<br />
-							на авто
-						</Text>
-					</Box>
-					<Box display="flex" flex-direction="column" margin="0px 40px 0px 0px">
-						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							30км
-						</Text>
-						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
-							До аэропорта
-						</Text>
-					</Box>
-					<Box display="flex" flex-direction="column">
-						<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif" sm-text-align="center">
-							8км
-						</Text>
-						<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" lg-text-align="center">
-							До ЖД Вокзала
-						</Text>
-					</Box>
-				</Box>
 				<Box min-width="100px" min-height="100px" display="flex">
 					<Button
 						top="871px"
@@ -302,7 +271,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06:25:47.888Z"
+					src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04:56:37.865Z"
 					border-radius="24px"
 					object-fit="cover"
 					width="100%"
@@ -313,9 +282,75 @@ export default (() => {
 					loading="lazy"
 					alt="жк 2 кита избербаш"
 					title="жк 2 кита избербаш"
-					srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06%3A25%3A47.888Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06%3A25%3A47.888Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06%3A25%3A47.888Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06%3A25%3A47.888Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06%3A25%3A47.888Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06%3A25%3A47.888Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/5.jpg?v=2024-03-22T06%3A25%3A47.888Z&quality=85&w=3200 3200w"
+					srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A37.865Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A37.865Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A37.865Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A37.865Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A37.865Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A37.865Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A37.865Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
+			</Box>
+		</Section>
+		<Section padding="88px 0 88px 0" margin="0px 0px 0px 0px" quarkly-title="Video-5">
+			<Override slot="SectionContent" max-width="1220px" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				lg-padding="0px 0px 0px 0px"
+				align-items="flex-start"
+				flex-direction="column"
+				justify-content="center"
+				margin="0px 0px 48px 0px"
+				sm-margin="0px 0px 30px 0px"
+				display="flex"
+				width="100%"
+			>
+				<Text
+					margin="0px 0px 16px 0px"
+					color="--dark"
+					font="--headline1"
+					text-align="left"
+					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					width="100%"
+				>
+					Вместо тысячи слов
+				</Text>
+			</Box>
+			<Box display="flex" lg-flex-wrap="wrap" flex-wrap="wrap" width="100%">
+				<Box
+					lg-width="50%"
+					md-width="100%"
+					align-items="center"
+					justify-content="center"
+					width="50%"
+					display="flex"
+					padding="15px 15px 15px 15px"
+				>
+					<Components.QuarklycommunityKitVimeo
+						showPortrait={false}
+						showByline={false}
+						video="https://vimeo.com/1090360682?share=copy#t=0"
+						controls
+						showTitle={false}
+						position="static"
+						overflow-y="hidden"
+						overflow-x="hidden"
+					/>
+				</Box>
+				<Box
+					display="flex"
+					padding="15px 15px 15px 15px"
+					lg-width="50%"
+					md-width="100%"
+					align-items="center"
+					justify-content="center"
+					width="50%"
+				>
+					<Components.QuarklycommunityKitVimeo
+						showPortrait={false}
+						showByline={false}
+						video="https://vimeo.com/1090361189?share=copy#t=0"
+						controls
+						showTitle={false}
+						position="static"
+						overflow-y="hidden"
+						overflow-x="hidden"
+					/>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-lightD1">
@@ -344,22 +379,7 @@ export default (() => {
 					sm-font="--headline2"
 					padding="0px 16px 0px 0px"
 				>
-					"Море, море, голубое море!" -{" "}
-					<br />
-					<Span
-						font-weight="normal"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-						font="--headline3"
-					>
-						Александр Пушкин
-					</Span>
+					Семейный Комфорт. Современные Технологии.
 				</Text>
 			</Box>
 			<Box
@@ -384,11 +404,18 @@ export default (() => {
 					margin="40px 0px 16px 32px"
 					sm-margin="40px 0px 16px 0"
 				>
-					Элегантный жилой комплекс из 7 зданий, высотой от 6 до 11 этажей, вмещает в себя 416 апартаментов. Здесь современный дизайн сочетается с функциональностью, создавая идеальное пространство для вашего комфорта и уюта. Добро пожаловать в мир роскоши и гармонии!
+					Комплекс спроектирован как самодостаточное
+жилое пространство с социальной
+и коммерческой инфраструктурой:
+на территории предусмотрены школа,
+детский сад, поликлиника, торговый центр,
+паркинг, охраняемая территория
+и просторные зелёные зоны
+для прогулок и отдыха.
 				</Text>
 			</Box>
 			<Image
-				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06:25:47.898Z"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:03:01.516Z"
 				object-fit="cover"
 				width="100%"
 				height="800px"
@@ -404,13 +431,13 @@ export default (() => {
 				loading="lazy"
 				alt="жк 2 кита избербаш"
 				title="жк 2 кита избербаш"
-				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06%3A25%3A47.898Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06%3A25%3A47.898Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06%3A25%3A47.898Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06%3A25%3A47.898Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06%3A25%3A47.898Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06%3A25%3A47.898Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/1.jpg?v=2024-03-22T06%3A25%3A47.898Z&quality=85&w=3200 3200w"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A03%3A01.516Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A03%3A01.516Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A03%3A01.516Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A03%3A01.516Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A03%3A01.516Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A03%3A01.516Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0015%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A03%3A01.516Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Section>
 		<Section background="#ffffff" padding="90px 0 110px 0" quarkly-title="Team-12">
 			<Text margin="0px 0px 0px 0px" color="--dark" font="600 48px --fontFamily-sans">
-				Уникальные черты комплекса
+				Инфраструктура для Семей{"\n\n"}
 			</Text>
 			<Box
 				min-width="100px"
@@ -438,7 +465,7 @@ export default (() => {
 				>
 					<Box min-width="100px" min-height="100px" sm-width="100%" sm-margin="0px 0px 0 0px">
 						<Image
-							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06:25:47.901Z"
+							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:33:30.681Z"
 							display="block"
 							width="100%"
 							border-radius="25px"
@@ -451,7 +478,7 @@ export default (() => {
 							sm-width="100%"
 							sm-height="auto"
 							height="250px"
-							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06%3A25%3A47.901Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06%3A25%3A47.901Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06%3A25%3A47.901Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06%3A25%3A47.901Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06%3A25%3A47.901Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06%3A25%3A47.901Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/7.jpg?v=2024-03-22T06%3A25%3A47.901Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A30.681Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A30.681Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A30.681Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A30.681Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A30.681Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A30.681Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0002%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A30.681Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Box>
@@ -465,7 +492,8 @@ export default (() => {
 						margin="25px 0px 0px 0px"
 					>
 						<Text color="--dark" font="--headline4" lg-margin="0 0px 0px 0px" margin="0 0px 0 0px">
-							Собственная инфраструктура
+							Доступная медицина
+в шаге от вас{"\n\n"}
 						</Text>
 					</Box>
 				</Box>
@@ -480,7 +508,7 @@ export default (() => {
 				>
 					<Box min-width="100px" min-height="100px" sm-width="100%" sm-margin="0px 0px 0 0px">
 						<Image
-							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06:25:47.909Z"
+							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:33:48.413Z"
 							display="block"
 							width="100%"
 							border-radius="25px"
@@ -493,7 +521,7 @@ export default (() => {
 							sm-width="100%"
 							sm-height="auto"
 							height="250px"
-							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06%3A25%3A47.909Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06%3A25%3A47.909Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06%3A25%3A47.909Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06%3A25%3A47.909Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06%3A25%3A47.909Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06%3A25%3A47.909Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/3.jpg?v=2024-03-22T06%3A25%3A47.909Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A48.413Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A48.413Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A48.413Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A48.413Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A48.413Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A48.413Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0003%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A33%3A48.413Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Box>
@@ -507,7 +535,9 @@ export default (() => {
 						margin="25px 0px 0px 0px"
 					>
 						<Text color="--dark" font="--headline4" lg-margin="0 0px 0px 0px" margin="0 0px 0 0px">
-							Общественный открытый бассейн
+							Просторный и комфортный
+
+ детский сад{"\n\n"}
 						</Text>
 					</Box>
 				</Box>
@@ -523,7 +553,7 @@ export default (() => {
 				>
 					<Box min-width="100px" min-height="100px" sm-width="100%" sm-margin="0px 0px 0 0px">
 						<Image
-							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06:25:47.899Z"
+							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:34:23.036Z"
 							display="block"
 							width="100%"
 							border-radius="25px"
@@ -536,7 +566,7 @@ export default (() => {
 							sm-width="100%"
 							sm-height="auto"
 							height="250px"
-							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06%3A25%3A47.899Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06%3A25%3A47.899Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06%3A25%3A47.899Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06%3A25%3A47.899Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06%3A25%3A47.899Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06%3A25%3A47.899Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/6.jpg?v=2024-03-22T06%3A25%3A47.899Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A34%3A23.036Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A34%3A23.036Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A34%3A23.036Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A34%3A23.036Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A34%3A23.036Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A34%3A23.036Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0006%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A34%3A23.036Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Box>
@@ -550,7 +580,7 @@ export default (() => {
 						margin="25px 0px 0px 0px"
 					>
 						<Text color="--dark" font="--headline4" lg-margin="0 0px 0px 0px" margin="0 0px 0 0px">
-							Безопасное пространство
+							Большая современная школа{"\n\n"}
 						</Text>
 					</Box>
 				</Box>
@@ -584,9 +614,7 @@ export default (() => {
 					padding="0px 16px 0px 0px"
 					text-align="left"
 				>
-					Роскошь{" "}
-					<br />
-					и комфорт
+					Всё под рукой
 				</Text>
 			</Box>
 			<Box
@@ -614,7 +642,10 @@ export default (() => {
 					padding="0px 16px 0px 0px"
 					text-align="right"
 				>
-					Оптимальное сочетание роскоши и удобств делает наш жилой комплекс идеальным местом для жизни. Погрузитесь в атмосферу уюта и беззаботности, расслабьтесь под солнцем и позвольте себе наслаждаться каждым моментом жизни у нас.
+					ЖК «Московский» предлагает максимум
+удобства — прямо на территории комплекса
+будет расположен современный торговый
+центр, доступный всем жителям.
 				</Text>
 			</Box>
 			<Box
@@ -631,7 +662,7 @@ export default (() => {
 				sm-margin="0px 0px 0px 0px"
 			/>
 			<Image
-				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06:25:47.891Z"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04:56:18.038Z"
 				object-fit="cover"
 				width="100%"
 				height="800px"
@@ -647,80 +678,131 @@ export default (() => {
 				alt="жк 2 кита избербаш"
 				title="жк 2 кита избербаш"
 				loading="lazy"
-				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06%3A25%3A47.891Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06%3A25%3A47.891Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06%3A25%3A47.891Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06%3A25%3A47.891Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06%3A25%3A47.891Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06%3A25%3A47.891Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/4.jpg?v=2024-03-22T06%3A25%3A47.891Z&quality=85&w=3200 3200w"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A18.038Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A18.038Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A18.038Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A18.038Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A18.038Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A18.038Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0010%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04%3A56%3A18.038Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Section>
-		<Section padding="80px 0 40px 0" lg-padding="80px 0 90px 0" quarkly-title="Stages/Steps-3" background="--color-lightD1">
+		<Section padding="80px 0 90px 0" quarkly-title="Product-5">
+			<Override slot="SectionContent" align-items="center" />
 			<Text
-				margin="0px 0px 80px 0px"
-				font="--headline2"
-				color="--darkL1"
-				border-color="--color-dark"
+				margin="0px 0px 20px 0px"
+				font="normal 500 56px/1.2 --fontFamily-sans"
 				text-align="center"
-				lg-margin="0px 0px 50px 0px"
+				lg-width="70%"
+				md-width="100%"
+				color="--darkL1"
 			>
-				То, что вам действительно нужно
+				Парковая Зона Отдыха{"\n\n"}
 			</Text>
+			<Hr
+				min-height="10px"
+				margin="0px 0px 50px 0px"
+				border-color="--color-darkL1"
+				width="40px"
+				border-width="2px 0 0 0"
+			/>
 			<Box
 				min-width="100px"
 				min-height="100px"
 				display="grid"
 				grid-template-columns="repeat(3, 1fr)"
+				grid-template-rows="auto"
+				grid-gap="0 35px"
 				md-grid-template-columns="1fr"
-				md-grid-template-rows="auto"
-				md-grid-gap={0}
-				padding="0px 50px 0px 50px"
-				lg-padding="0px 0 0px 0"
+				md-grid-gap="40px 0"
+				margin="0px 0px 70px 0px"
+				md-margin="0px 0px 50px 0px"
 			>
 				<Box
 					min-width="100px"
 					min-height="100px"
 					display="flex"
-					lg-padding="0px 25px 26px 25px"
 					flex-direction="column"
-					align-items="center"
-					padding="0px 30px 30px 30px"
-					md-padding="0px 25px 34px 25px"
-					sm-padding="0px 0 34px 0"
+					align-items="flex-start"
 				>
-					<Box
-						min-width="50px"
-						min-height="50px"
-						background="--color-darkL1"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						width="50px"
-						height="50px"
-						border-radius="50%"
-						margin="0px 0px 30px 0px"
-						color="--darkL2"
-					>
-						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
-							1
+					<Image
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:42:26.132Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						object-fit="cover"
+						sm-height="220px"
+						height="600px"
+						lg-height="400px"
+						md-width="100%"
+						md-height="450px"
+						srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A26.132Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A26.132Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A26.132Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A26.132Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A26.132Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A26.132Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0021%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A26.132Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Hr
+						min-height="10px"
+						margin="0px 0px 10px 0px"
+						border-color="--color-darkL1"
+						width="40px"
+						border-width="2px 0 0 0"
+					/>
+					<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+						Аллея объединяет всё пространство
+комплекса, создавая ощущение уюта.
+					</Text>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Box min-width="100px" min-height="100px" margin="0px 0px 30px 0px">
+						<Image
+							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:42:06.928Z"
+							display="block"
+							max-width="100%"
+							margin="0px 0px 25px 0px"
+							height="300px"
+							width="100%"
+							object-fit="cover"
+							sm-height="220px"
+							lg-height="200px"
+							md-height="350px"
+							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A06.928Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A06.928Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A06.928Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A06.928Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A06.928Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A06.928Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0013%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A42%3A06.928Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+						<Hr
+							min-height="10px"
+							margin="0px 0px 10px 0px"
+							border-color="--color-darkL1"
+							width="40px"
+							border-width="2px 0 0 0"
+						/>
+						<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+							Прогулочные дорожки и скамейки
 						</Text>
 					</Box>
-					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
-						<Text
-							margin="0px 0px 15px 0px"
-							border-color="--color-light"
-							color="--darkL1"
-							font="--headline4"
-							text-align="center"
-						>
-							Откройте для себя натуральную свежесть и вкус местных продуктов прямо возле вашего дома!
-						</Text>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="--lead"
-							color="#65696d"
-							text-align="center"
-							border-color="#7a7c7f"
-							md-border-color="--color-darkL2"
-							md-color="--darkL2"
-						>
-							Пользуйтесь уникальным преимуществом – нашим расположением рядом с развитым сельским хозяйством, где вы всегда найдёте свежие и качественные фрукты и овощи прямо у порога вашего жилого комплекса.{" "}
+					<Box min-width="100px" min-height="100px">
+						<Image
+							src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:43:45.074Z"
+							display="block"
+							max-width="100%"
+							margin="0px 0px 25px 0px"
+							height="300px"
+							width="100%"
+							object-fit="cover"
+							sm-height="220px"
+							lg-height="200px"
+							md-height="350px"
+							srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A45.074Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A45.074Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A45.074Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A45.074Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A45.074Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A45.074Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0011%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A45.074Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+						<Hr
+							min-height="10px"
+							margin="0px 0px 10px 0px"
+							border-color="--color-darkL1"
+							width="40px"
+							border-width="2px 0 0 0"
+						/>
+						<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+							Тихая зона для спокойного отдыха{"\n\n"}
 						</Text>
 					</Box>
 				</Box>
@@ -728,139 +810,104 @@ export default (() => {
 					min-width="100px"
 					min-height="100px"
 					display="flex"
-					lg-padding="0px 25px 26px 25px"
 					flex-direction="column"
-					align-items="center"
-					padding="0px 30px 30px 30px"
-					md-padding="0px 25px 34px 25px"
-					sm-padding="0px 0 34px 0"
+					align-items="flex-start"
 				>
-					<Box
-						min-width="50px"
-						min-height="50px"
-						background="--color-darkL1"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						width="50px"
-						height="50px"
-						border-radius="50%"
-						margin="0px 0px 30px 0px"
-						color="--darkL2"
-					>
-						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
-							2
-						</Text>
-					</Box>
-					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
-						<Text
-							margin="0px 0px 15px 0px"
-							border-color="--color-light"
-							color="--darkL1"
-							font="--headline4"
-							text-align="center"
-						>
-							Добро пожаловать в мир, где каждый день наполнен красотой и волшебством морского бриза.
-						</Text>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="--lead"
-							color="#65696d"
-							text-align="center"
-							border-color="#7a7c7f"
-							md-color="--darkL2"
-						>
-							Подарите себе великолепие каждого рассвета и заката, наслаждаясь изысканным видом на бескрайние просторы моря. В нашем жилом комплексе вы сможете окунуться в атмосферу умиротворения и вдохновения, ощущая ласковое прикосновение ветра и бесконечную гармонию природы.{" "}
-						</Text>
-					</Box>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					lg-padding="0px 25px 26px 25px"
-					flex-direction="column"
-					align-items="center"
-					padding="0px 30px 30px 30px"
-					md-padding="0px 25px 0 25px"
-					sm-padding="0px 0 0 0"
-				>
-					<Box
-						min-width="50px"
-						min-height="50px"
-						background="--color-darkL1"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						width="50px"
-						height="50px"
-						border-radius="50%"
-						margin="0px 0px 30px 0px"
-						color="--darkL2"
-					>
-						<Text margin="0px 0px 0px 0px" color="--light" font="--lead" text-align="center">
-							3
-						</Text>
-					</Box>
-					<Box min-width="100px" min-height="100px" margin="0px 0px 0px 0">
-						<Text
-							margin="0px 0px 15px 0px"
-							border-color="--color-light"
-							color="--darkL1"
-							font="--headline4"
-							text-align="center"
-						>
-							Это ваш шанс испытать истинное блаженство жизни на берегу моря!
-						</Text>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="--lead"
-							color="#65696d"
-							text-align="center"
-							border-color="#7a7c7f"
-							md-color="--darkL2"
-						>
-							Откройте для себя привилегии проживания на первой береговой линии! Насладитесь непревзойденным видом на воду прямо из вашего окна. Разбудитесь с чарующим шепотом волн и наслаждайтесь прекрасными закатами, окунувшись в уникальную атмосферу жизни у моря.{" "}
-						</Text>
-					</Box>
+					<Image
+						src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05:43:21.326Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						object-fit="cover"
+						sm-height="220px"
+						height="600px"
+						lg-height="400px"
+						md-width="100%"
+						md-height="450px"
+						srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A21.326Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A21.326Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A21.326Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A21.326Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A21.326Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A21.326Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0018%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T05%3A43%3A21.326Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Hr
+						min-height="10px"
+						margin="0px 0px 10px 0px"
+						border-color="--color-darkL1"
+						width="40px"
+						border-width="2px 0 0 0"
+					/>
+					<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+						Отличное место для расслабления и проведения времени на свежем воздухе.{"\n\n\n\n"}
+					</Text>
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-dark">
-			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
+		<Section padding="80px 0 80px 0" background="#1e1e1e">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
-				width="50%"
+				width="25%"
+				padding="15px 15px 15px 15px"
+				align-items="center"
 				display="flex"
+				justify-content="center"
 				flex-direction="column"
-				justify-content="space-between"
-				md-width="100%"
-				padding="0px 80px 0px 0px"
-				lg-padding="0px 30px 0px 0px"
-				md-padding="0px 0px 0px 0px"
+				lg-width="50%"
+				sm-width="100%"
 			>
-				<Text margin="0px 0px 0px 0px" color="--grey" font="--lead" md-margin="0px 0px 20px 0px">
-					<Link href="https://glava.e-dag.ru/press/353/" color="--grey" target="_blank">
-						Изучить подробнее
-					</Link>
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+					ЦУМ
 				</Text>
-				<Text margin="0px 0px 0px 0px" color="--light" font="--headline2" md-margin="0px 0px 30px 0px">
-					Каспийский туристический кластер{" "}
+				<Text margin="0px 0px 0px 0px" font="--headline4" color="--greyD2" text-align="center">
+					7,8 км, 17 мин{" \n\n"}
 				</Text>
 			</Box>
 			<Box
-				width="50%"
+				width="25%"
+				padding="15px 15px 15px 15px"
 				display="flex"
+				align-items="center"
+				justify-content="center"
 				flex-direction="column"
-				justify-content="space-between"
-				md-width="100%"
+				lg-width="50%"
+				sm-width="100%"
 			>
-				<Text margin="0px 0px 40px 0px" color="--light" font="--headline4">
-					Создание туристско-рекреационной особой экономической зоны в Дагестане{" "}
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+					Горы
 				</Text>
-				<Text margin="0px 0px 0px 0px" color="--light" font="--lead">
-					"Создание особых экономических зон туристско-рекреационного типа на территории Дагестана является мощным
-			механизмом поддержки бизнеса в сфере туризма. Сейчас вместе с Кавказ.РФ разрабатываем концепцию курорта с учетом
-			интересов потенциальных резидентов и дальнейшего развития прибрежной зоны", - С. А. Меликов.
+				<Text margin="0px 0px 0px 0px" font="--headline4" color="--greyD2" text-align="center">
+					10 км, 22 мин{"\n\n"}
+				</Text>
+			</Box>
+			<Box
+				width="25%"
+				padding="15px 15px 15px 15px"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				flex-direction="column"
+				lg-width="50%"
+				sm-width="100%"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+					Джума
+				</Text>
+				<Text margin="0px 0px 0px 0px" font="--headline4" color="--greyD2" text-align="center">
+					7,5 км, 16 мин{" \n\n"}
+				</Text>
+			</Box>
+			<Box
+				width="25%"
+				padding="15px 15px 15px 15px"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				flex-direction="column"
+				lg-width="50%"
+				sm-width="100%"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+					Море
+				</Text>
+				<Text margin="0px 0px 0px 0px" font="--headline4" color="--greyD2" text-align="center">
+					9,4 км, 19 мин{" \n\n"}
 				</Text>
 			</Box>
 		</Section>
@@ -921,333 +968,6 @@ export default (() => {
 						</Text>
 						<Text as="p" font="--lead" margin="12px 0" color="--greyD2">
 							Новый морской курорт, поддержанный Президентом РФ, будет расположен в районе Избербаша и Каякента и будет являться приоритетным для развития в регионе. Планируется создать всю необходимую пляжную инфраструктуру: отели, яхт-клубы и многое другое.
-						</Text>
-					</Box>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="90px 0 100px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/blurred-premium-violet-color-abstract-wallpaper.jpg?v=2023-04-27T14:14:02.129Z) 0% 0% /cover repeat scroll padding-box" quarkly-title="Reviews-4">
-			<Text
-				margin="0px 0px 20px 0px"
-				font="normal 500 20px/1.5 --fontFamily-sansHelvetica"
-				color="--grey"
-				lg-margin="0px 0px 20px 0px"
-				text-align="center"
-			>
-				Отзывы с Яндекс Карты
-			</Text>
-			<Text margin="0px 0px 70px 0px" font="normal 600 46px/1.2 --fontFamily-sans" text-align="center" md-margin="0px 0px 50px 0px">
-				Что люди говорят о регионе{" "}
-			</Text>
-			<Box min-width="100px" min-height="100px" display="flex" lg-flex-direction="column">
-				<Box
-					min-width="100px"
-					min-height="100px"
-					width="25%"
-					lg-width="100%"
-					lg-display="flex"
-					md-flex-direction="column"
-					flex-direction="column"
-					lg-flex-direction="row"
-				>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="20px 20px 20px 20px"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						display="flex"
-						flex-direction="column"
-						lg-margin="0px 0 25px 0px"
-						sm-padding="20px 15px 20px 15px"
-						margin="0px 5px 25px 0px"
-						justify-content="space-between"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Чистый пляж, прозрачная вода! Вдоль берега много разных отелей цены доступные если чего-то не хватает можно заказать вам сделают доставку. Вода на столько чистая аж видно рыбы даже ночью у берега. Можно с детьми, так как глубина от берега метров 20 идёшь а вода по пояс. Рекомендую всем!
-							</Text>
-						</Box>
-						<Box min-width="10px" min-height="10px">
-							<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-								Марат Расулов
-							</Text>
-						</Box>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="20px 20px 20px 20px"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						display="flex"
-						flex-direction="column"
-						lg-margin="0px 0 25px 0px"
-						sm-padding="20px 15px 20px 15px"
-						margin="0px 5px 25px 0px"
-						justify-content="space-between"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Рынок просто супер! Я заезжал специально купить овощи, в частности помидоры. Купил 2 ящика, примерно 23 кг, 70 руб за кг. В Москве 350 руб за кг дагестанских помидор. Взял огурчики, свежей клубнички немножко, аджика, капусту. В общем всего понемножку))) Рекомендую
-							</Text>
-						</Box>
-						<Box min-width="10px" min-height="10px">
-							<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-								Александр
-							</Text>
-						</Box>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="20px 20px 20px 20px"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						display="flex"
-						flex-direction="column"
-						lg-margin="0px 0 25px 0px"
-						sm-padding="20px 15px 20px 15px"
-						margin="0px 5px 25px 0px"
-						justify-content="space-between"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Отличный аквапарк. Хоть и маленький, но в нем есть всё для хорошего отдыха. Достаточное количество лежаков, абсолютно доступная цена, большое разнообразие еды на фудкорте, при чем не по цене почки, как обычно бывает в таких заведениях - не может не радовать!
-							</Text>
-						</Box>
-						<Box min-width="10px" min-height="10px">
-							<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-								Мария
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box min-width="100px" min-height="100px" width="50%" lg-width="100%">
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="30px 0 10px 0"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						margin="0px 20px 25px 20px"
-						display="flex"
-						flex-direction="column"
-						justify-content="space-between"
-						lg-margin="0px 0 25px 0px"
-						md-padding="20px 0 10px 0"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text
-								margin="0px 0px 28px 0px"
-								font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
-								color="--darkL1"
-								padding="0px 30px 0px 30px"
-								md-padding="0px 20px 0px 20px"
-								md-margin="0px 0px 25px 0px"
-							>
-								Избербаш. Пляжное место Дагестана. Здесь я познакомилась с Каспием.
-Огромным, могучим и чертовски манящим. Городской пляж на то и городской, чтобы быть во всеобщей городской доступности. Особого мусора я не заметила, берег относительно чистый, море любимое прозрачное и тёплое. Огромным преимуществом этого места- плавный заход в воду без резких перепадов. В некоторых местах на столько плавный, что приходилось идти по воде пешком более 100 метров, прежде чем появлялась возможность нырнуть под воду, но это большой плюс для семей с детьми. Такой детский пляж. А какие там рифы...{" "}
-							</Text>
-						</Box>
-						<Box
-							min-width="100px"
-							display="flex"
-							justify-content="space-between"
-							align-items="flex-start"
-							padding="0px 30px 0px 30px"
-							border-width="1px 0 0 0"
-							border-style="solid"
-							border-color="--color-lightD2"
-							md-padding="0px 20px 0px 20px"
-							md-min-width={0}
-							md-min-height={0}
-						>
-							<Box min-width="100px" display="flex" align-items="center">
-								<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-									Наталья
-								</Text>
-							</Box>
-						</Box>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="30px 0 10px 0"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						margin="0px 20px 25px 20px"
-						display="flex"
-						flex-direction="column"
-						justify-content="space-between"
-						lg-margin="0px 0 25px 0px"
-						md-padding="20px 0 10px 0"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text
-								margin="0px 0px 28px 0px"
-								font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
-								color="--darkL1"
-								padding="0px 30px 0px 30px"
-								md-padding="0px 20px 0px 20px"
-								md-margin="0px 0px 25px 0px"
-							>
-								Превосходный рынок! Разные овощи, фрукты, зелень, ягоды. Всё по очень приятным ценам. Можно купить разнообразные свежие местные сладости. Есть рыба свежая, вяленая и копчёная. Домашняя молочка-очень вкусная и натуральная. Свежее мясо. Много орехов, чаи, сухофрукты, специи. Есть и безалкогольные напитки. Безопасно, но соблюдайте дресс код, уважайте традиции. Однозначно рекомендую.
-							</Text>
-						</Box>
-						<Box
-							min-width="100px"
-							display="flex"
-							justify-content="space-between"
-							align-items="flex-start"
-							padding="0px 30px 0px 30px"
-							border-width="1px 0 0 0"
-							border-style="solid"
-							border-color="--color-lightD2"
-							md-padding="0px 20px 0px 20px"
-							md-min-width={0}
-							md-min-height={0}
-						>
-							<Box min-width="100px" display="flex" align-items="center">
-								<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-									Дарья
-								</Text>
-							</Box>
-						</Box>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="30px 0 10px 0"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						margin="0px 20px 25px 20px"
-						display="flex"
-						flex-direction="column"
-						justify-content="space-between"
-						lg-margin="0px 0 25px 0px"
-						md-padding="20px 0 10px 0"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text
-								margin="0px 0px 28px 0px"
-								font="normal 400 20px/1.5 --fontFamily-sansHelvetica"
-								color="--darkL1"
-								padding="0px 30px 0px 30px"
-								md-padding="0px 20px 0px 20px"
-								md-margin="0px 0px 25px 0px"
-							>
-								(О горячих источниках) Я в восторге!! Очень понравилось! Вода горячая, не пахнет сероводородом! Можно даже душ не принимать после. Вода бурлит)) Отдельные входы и зоны для мужчин и женщин. Есть место для переодевания.
-Обустроено отлично, бесплатно.
-							</Text>
-						</Box>
-						<Box
-							min-width="100px"
-							display="flex"
-							justify-content="space-between"
-							align-items="flex-start"
-							padding="0px 30px 0px 30px"
-							border-width="1px 0 0 0"
-							border-style="solid"
-							border-color="--color-lightD2"
-							md-padding="0px 20px 0px 20px"
-							md-min-width={0}
-							md-min-height={0}
-						>
-							<Box min-width="100px" display="flex" align-items="center">
-								<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-									Маша
-								</Text>
-							</Box>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					width="25%"
-					lg-width="100%"
-					lg-display="flex"
-					md-flex-direction="column"
-				>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="20px 20px 20px 20px"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						margin="0px 0 25px 5px"
-						display="flex"
-						flex-direction="column"
-						lg-margin="0px 0 0 0px"
-						sm-padding="20px 15px 20px 15px"
-						md-margin="0 0 25px 0"
-						justify-content="space-between"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Лучший пляж Каспийского моря! Широкая полоса, желтый песок, чистота, море прозрачное, голубое, мелко, приятно купаться. Хорошие переодевалки. Кафе прямо на пляже, немного дороговатое, но всегда есть места, романтично, особенно на столиках на песке, прямо перед морем. Рядом есть опция кинотеатра на открытом возлаже, транслируют новые фильмы.
-							</Text>
-						</Box>
-						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-							Ирина Варюхина
-						</Text>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="20px 20px 20px 20px"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						margin="0px 0 25px 5px"
-						display="flex"
-						flex-direction="column"
-						lg-margin="0px 0 0 0px"
-						sm-padding="20px 15px 20px 15px"
-						md-margin="0 0 25px 0"
-						justify-content="space-between"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Пляж расположен в удобном черте города. Уровень воды оптимальный для семей с детьми, на пляже разные развлекательные сервисы, открытый ресторан с очень вкусной едой, на пляже также продаются кукуруза, сладкая вата, попкорн и другое...
-							</Text>
-						</Box>
-						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-							Амина
-						</Text>
-					</Box>
-					<Box
-						min-width="100px"
-						min-height="100px"
-						padding="20px 20px 20px 20px"
-						background="#f3f3f7"
-						border-radius="8px"
-						box-shadow="--m"
-						margin="0px 0 25px 5px"
-						display="flex"
-						flex-direction="column"
-						lg-margin="0px 0 0 0px"
-						sm-padding="20px 15px 20px 15px"
-						md-margin="0 0 25px 0"
-						justify-content="space-between"
-					>
-						<Box min-width="100px" min-height="100px">
-							<Text margin="0px 0px 18px 0px" font="normal 300 17px/1.5 --fontFamily-sansHelvetica" color="--darkL1">
-								Маленький, но очень уютный аквапарк. Лягушатник для малышей и два бассейна побольше для более взрослых, куда ведёт спуск с горок. Есть несколько особо экстремальных горок, на две из которых пускают только с ватрушками. Прикольная горка со спуском через воронку в отдельный водоём.{" "}
-								<br />
-								На каждой горке по спасателю.
-							</Text>
-						</Box>
-						<Text margin="0px 0px 7px 0px" font="normal 600 17px/1.5 --fontFamily-sans">
-							Роман
 						</Text>
 					</Box>
 				</Box>
@@ -1419,7 +1139,7 @@ export default (() => {
 						transition="background-color 0.2s ease-in-out 0s"
 						hover-transition="background-color 0.2s ease-in-out 0s"
 						hover-background="--color-orange"
-						href="https://disk.yandex.ru/i/oVA-1t6u9UIn2w"
+						href="https://disk.yandex.ru/i/M-HOoPdrp_sHVg"
 						target="_blank"
 					>
 						Посмотреть проект
@@ -1438,7 +1158,7 @@ export default (() => {
 				lg-width="100%"
 			/>
 			<Image
-				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12:33:26.385Z"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05:27:05.375Z"
 				display="inline-flex"
 				width="50%"
 				lg-width="100%"
@@ -1446,7 +1166,7 @@ export default (() => {
 				alt="2 кита"
 				title="2 кита"
 				border-radius="80px"
-				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-03-22%20183241.png?v=2024-03-22T12%3A33%3A26.385Z&quality=85&w=3200 3200w"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box
@@ -1495,7 +1215,7 @@ export default (() => {
 					width="500px"
 				>
 					<Link
-						href="https://yandex.ru/maps/-/CDRMEAZw"
+						href="https://yandex.com/maps/-/CHGGUO0y"
 						md-color="#ffffff"
 						md-hover-color="#0c36ea"
 						target="_blank"
@@ -1504,9 +1224,9 @@ export default (() => {
 					>
 						Посмотреть на карте
 						<br />
-						г. Избербаш
+						г. Махачкала
 						<br />
-						Район спортивной базы им Али Алиева
+						ул. Даганова 139
 					</Link>
 				</Text>
 				<Box min-width="100px" min-height="100px" display="flex">
@@ -1615,8 +1335,8 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					ЖК "Пушкин Resort" -  Оазис на берегу моря!
-Рассрочка на 3 года.
+					ЖК "Московский" -  
+Идеальная Жизнь Начинается Здесь!{" "}
 				</Strong>
 			</Text>
 		</Section>

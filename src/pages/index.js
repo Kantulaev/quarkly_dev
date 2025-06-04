@@ -41,11 +41,12 @@ export default (() => {
 			md-grid-gap="8px"
 		>
 			<Text margin="0px 0px 0px 0px" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" color="--dark" md-text-align="center">
-				Новый ЖК "Пушкин Resort"
+				Новый ЖК "Московский"
 			</Text>
 			<Icon category="bs" icon={BsDot} size="16px" md-display="none" />
 			<Text margin="0px 0px 0px 0px" font="--base" color="--dark" md-text-align="center">
-				Открытый бассейн и частный пляж
+				{" "}Современный
+жилой комплекс комфорт-класса{"\n\n"}
 			</Text>
 			<LinkBox
 				color="--light"
