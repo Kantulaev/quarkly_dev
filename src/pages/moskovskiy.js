@@ -304,7 +304,7 @@ export default (() => {
 					color="--dark"
 					font="--headline1"
 					text-align="left"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="--headline2"
 					width="100%"
 				>
 					Вместо тысячи слов
@@ -436,7 +436,7 @@ export default (() => {
 			/>
 		</Section>
 		<Section background="#ffffff" padding="90px 0 110px 0" quarkly-title="Team-12">
-			<Text margin="0px 0px 0px 0px" color="--dark" font="600 48px --fontFamily-sans">
+			<Text margin="0px 0px 0px 0px" color="--dark" font="600 48px --fontFamily-sans" sm-font="--headline4">
 				Инфраструктура для Семей{"\n\n"}
 			</Text>
 			<Box
@@ -741,7 +741,7 @@ export default (() => {
 						width="40px"
 						border-width="2px 0 0 0"
 					/>
-					<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+					<Text margin="0px 0px 15px 0px" font="--headline4">
 						Аллея объединяет всё пространство
 комплекса, создавая ощущение уюта.
 					</Text>
@@ -775,7 +775,7 @@ export default (() => {
 							width="40px"
 							border-width="2px 0 0 0"
 						/>
-						<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+						<Text margin="0px 0px 15px 0px" font="--headline4">
 							Прогулочные дорожки и скамейки
 						</Text>
 					</Box>
@@ -801,7 +801,7 @@ export default (() => {
 							width="40px"
 							border-width="2px 0 0 0"
 						/>
-						<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+						<Text margin="0px 0px 15px 0px" font="--headline4">
 							Тихая зона для спокойного отдыха{"\n\n"}
 						</Text>
 					</Box>
@@ -834,7 +834,7 @@ export default (() => {
 						width="40px"
 						border-width="2px 0 0 0"
 					/>
-					<Text margin="0px 0px 15px 0px" font="normal 400 20px/1.2 --fontFamily-sans">
+					<Text margin="0px 0px 15px 0px" font="--headline4">
 						Отличное место для расслабления и проведения времени на свежем воздухе.{"\n\n\n\n"}
 					</Text>
 				</Box>
@@ -1159,6 +1159,7 @@ export default (() => {
 						target="_blank"
 						lg-color="#ffffff"
 						color="--light"
+						sm-font="--headline4"
 					>
 						Посмотреть на карте
 						<br />
