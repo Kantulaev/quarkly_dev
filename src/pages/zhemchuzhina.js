@@ -113,9 +113,6 @@ export default (() => {
 					align-items="center"
 					md-display="flex"
 				>
-					<Link href="#rasrochka" color="#000000" font="--headline4" margin="0px 16px 0px 0px">
-						Рассрочка
-					</Link>
 					<Link href="#docs" color="#000000" font="--headline4" margin="0px 16px 0px 0px">
 						Документы
 					</Link>

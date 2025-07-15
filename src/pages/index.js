@@ -120,13 +120,7 @@ export default (() => {
 				justify-content="center"
 				width="100%"
 			>
-				<Text
-					font="--headline1"
-					color="--light"
-					text-align="center"
-					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					margin="16px 0px 0px 0px"
-				>
+				<Text font="--headline1" color="--light" text-align="center" md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
 					Сейчас в продаже
 				</Text>
 			</Box>
@@ -189,8 +183,9 @@ export default (() => {
 						md-border-width="0px"
 						flex-direction="column"
 					>
-						<Text margin="24px 0px 0 0px" font="--headline2" color="--light">
-							Жемчужина Избербаша{"\n\n"}
+						<Text margin="24px 0px 0 0px" font="--headline2" color="--light" text-decoration-line="underline">
+							Жемчужина Избербаша
+→{"\n\n"}
 						</Text>
 						<Text margin="16px 0px 8px 0px" font="--headline4" color="--light">
 							Успей инвестировать в новый ЖК на берегу моря
@@ -244,8 +239,9 @@ export default (() => {
 						md-border-width="0px"
 						flex-direction="column"
 					>
-						<Text margin="24px 0px 0 0px" font="--headline2" color="--light">
-							ЖК Московский
+						<Text margin="24px 0px 0 0px" font="--headline2" color="--light" text-decoration-line="underline">
+							ЖК Московский 
+→{"\n\n"}
 						</Text>
 						<Text margin="16px 0px 8px 0px" font="--headline4" color="--light">
 							Cовременный жилой комплекс комфорт-класса{"\n\n\n\n"}
