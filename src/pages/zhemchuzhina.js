@@ -25,6 +25,7 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-touch-icon.png?v=2024-03-22T08:40:48.411Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/android-chrome-512x512.png?v=2024-03-22T08:41:38.675Z"} />
 			<meta name={"msapplication-TileColor"} content={"#0429ff"} />
+			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Box
 			width="100%"

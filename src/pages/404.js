@@ -10,12 +10,12 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				ЖК "Жемчужина Избербаша" 
+				ЖК "Московский" -  Идеальная Жизнь Начинается Здесь! 
 			</title>
-			<meta name={"description"} content={"Элитный ЖК на берегу моря. Рассрочка на 3 года. Перспективный район!"} />
-			<meta property={"og:title"} content={"ЖК \"Жемчужина Избербаша\" "} />
-			<meta property={"og:description"} content={"Элитный ЖК на берегу моря. Рассрочка на 3 года. Перспективный район!"} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0016%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T06:21:09.417Z"} />
+			<meta name={"description"} content={"ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139."} />
+			<meta property={"og:title"} content={"ЖК \"Московский\" -  Идеальная Жизнь Начинается Здесь! "} />
+			<meta property={"og:description"} content={"ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04:56:37.865Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2023-05-16T06:41:53.296Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
@@ -36,14 +36,15 @@ export default (() => {
 				lg-width="100%"
 			/>
 			<Image
-				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22:51:10.370Z"
+				src="https://uploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05:27:05.375Z"
 				display="inline-flex"
 				width="50%"
 				lg-width="100%"
 				loading="lazy"
 				alt="2 кита"
 				title="2 кита"
-				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-05-18%20045002%20%281%29.png?v=2023-05-17T22%3A51%3A10.370Z&quality=85&w=3200 3200w"
+				border-radius="80px"
+				srcSet="https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64624544820441001fb0b59f/images/clipboard-image-1749014777.webp?v=2025-06-04T05%3A27%3A05.375Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box
@@ -92,18 +93,19 @@ export default (() => {
 					width="500px"
 				>
 					<Link
-						href="https://yandex.ru/maps/-/CCUk70xXsC"
+						href="https://yandex.com/maps/-/CHGGUO0y"
 						md-color="#ffffff"
 						md-hover-color="#0c36ea"
 						target="_blank"
 						lg-color="#ffffff"
 						color="--light"
+						sm-font="--headline4"
 					>
 						Посмотреть на карте
 						<br />
-						г. Избербаш
+						г. Махачкала
 						<br />
-						О. А. Межлумова 11/1
+						ул. Даганова 139
 					</Link>
 				</Text>
 				<Box min-width="100px" min-height="100px" display="flex">
@@ -135,7 +137,7 @@ export default (() => {
 						top="871px"
 						left="324px"
 						z-index="2"
-						href="https://wa.me/79882200199"
+						href="https://wa.me/79286775522"
 						bottom="2750.999984741211px"
 						right="1402.310015258789px"
 						overflow-x="visible"

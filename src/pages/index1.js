@@ -12,12 +12,12 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index1"} />
 		<Helmet>
 			<title>
-				ЖК "Жемчужина Избербаша" 
+				ЖК "Московский" -  Идеальная Жизнь Начинается Здесь! 
 			</title>
-			<meta name={"description"} content={"Элитный ЖК на берегу моря. Рассрочка на 3 года. Перспективный район!"} />
-			<meta property={"og:title"} content={"ЖК \"Жемчужина Избербаша\" "} />
-			<meta property={"og:description"} content={"Элитный ЖК на берегу моря. Рассрочка на 3 года. Перспективный район!"} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0016%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T06:21:09.417Z"} />
+			<meta name={"description"} content={"ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139."} />
+			<meta property={"og:title"} content={"ЖК \"Московский\" -  Идеальная Жизнь Начинается Здесь! "} />
+			<meta property={"og:description"} content={"ЖК «Московский» — это современный\nжилой комплекс комфорт-класса,\nстроящийся в Махачкале\nпо адресу ул. Даганова, 139."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/IMG-20250602-WA0017%20%28%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%B9%29.jpg?v=2025-06-04T04:56:37.865Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/favicon-32x32.png?v=2023-05-16T06:41:53.296Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/64624544820441001fb0b59f/images/apple-icon-152x152.png?v=2023-05-16T06:42:04.713Z"} />
